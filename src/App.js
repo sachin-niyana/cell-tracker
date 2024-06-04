@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/common/Header";
 import Advantage from "./components/home/Advantage";
 import Privacy from "./components/landing/Privacy";
-import Works from "./components/landing/Works";
+import Tracker from "./components/landing/Tracker";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Advantage />
       <Privacy />
-      <Works />
+      <Tracker />
     </>
   );
 }

@@ -5,10 +5,14 @@ import {
   People,
   Privacy,
   Puzzale,
-  Setting,
+  Keypad,
+  Location,
+  Messages,
+  Unlimiteddata,
+  Settings,
+  Simple,
+  Instant,
 } from "./Icon";
-import { Location } from "../common/Icon";
-
 export const items = [
   {
     img: <Puzzale />,
@@ -37,7 +41,7 @@ export const items = [
 ];
 export const advantages = [
   {
-    icon: <Location />,
+    icon: <Instant />,
     title: "Instant location lookups",
     description:
       "Check the location of your registered phones whenever you choose. Add up to 5 phones to your account.",
@@ -49,7 +53,7 @@ export const advantages = [
       "Our service works with any Android or iPhone device, and takes just minutes to set up.",
   },
   {
-    icon: <Setting />,
+    icon: <Simple />,
     title: "Simple to use",
     description:
       "Our service has been designed to be simple to use. Just follow our walkthrough wizard to locate your phone.",
@@ -59,5 +63,34 @@ export const advantages = [
     title: "Keep your family safe",
     description:
       "Keep track of your family using our tools. Know that your children or elderly relatives are safe.",
+  },
+];
+
+export const trackerdata = [
+  {
+    img: <Settings />,
+    description:
+      "Cell Tracker runs on all phones and configurations, of all brands",
+  },
+
+  {
+    img: <Location />,
+    description: "Grab real-time location as precise coordinates",
+  },
+  {
+    img: <Messages />,
+    description:
+      "Customize the message you want the recipient to recieve. Or use the one suggested by default",
+  },
+
+  {
+    img: <Keypad />,
+    description: "Any mobile number in the world can be tracked",
+  },
+
+  {
+    img: <Unlimiteddata />,
+    title: "No installation required",
+    description: "Send unlimited geo-location requests",
   },
 ];

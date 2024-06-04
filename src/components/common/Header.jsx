@@ -41,7 +41,7 @@ const Header = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="absolute xl:top-[41%] top-[45%] xl:right-[-15px] sm:right-0 sm:left-auto left-[50%] md:max-w-[280px] sm:max-w-[200px] max-w-[164px] md:p-[18px] sm:p-3 p-2 rounded-tl-xl rounded-br-xl w-full bg-white shadow-helpCard">
+            <div className="absolute xl:top-[41%] top-[45%] xl:right-[-15px]  sm:left-auto md:max-w-[280px] sm:max-w-[200px] max-w-[164px] md:p-[18px] sm:p-3 p-2 rounded-tl-xl rounded-br-xl w-full bg-white shadow-helpCard">
               <div className="flex justify-between items-center">
                 <p className="font-bold md:text-2xl text-xl text-sky ">
                   Need help?
