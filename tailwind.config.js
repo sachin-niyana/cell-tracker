@@ -21,6 +21,7 @@ module.exports = {
         gray: "#959595",
         "light-gray": "#fafafa",
         sky: "#00b5d8",
+        "light-sky": "#E5F8FB"
       },
       boxShadow: {
         cellTrackerCard: " 0px 16px 25.3px 0px #00000014",
