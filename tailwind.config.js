@@ -12,7 +12,7 @@ module.exports = {
       backgroundImage: {
         "linear-gradient-btn":
           "linear-gradient(180deg, #FFE14E 0%, #FFB93F 100%)",
-        redchilli: "url('/assets/images/client-says/red-chilli-bg.webp')",
+        home: "url('/assets/images/background/hero-bg.png')",
       },
       colors: {
         "dark-blue": "#03045e",
