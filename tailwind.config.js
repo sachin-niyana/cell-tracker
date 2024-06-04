@@ -11,8 +11,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        home: "url('/assets/images/background/hero-bg.png')",
-        redchilli: "url('/assets/images/client-says/red-chilli-bg.webp')",
+        "hero-bg": "url('./assets/images/background/png/home-bg.png')",
         bluegradient:
           "linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)",
       },
@@ -26,6 +25,7 @@ module.exports = {
       boxShadow: {
         cellTrackerCard: " 0px 16px 25.3px 0px #00000014",
         workCard: "0px 16px 25.3px 0px #00000014",
+        helpCard: "0px 0px 24.6px 0px #00000059",
       },
     },
   },
