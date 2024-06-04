@@ -13,6 +13,8 @@ module.exports = {
         "linear-gradient-btn":
           "linear-gradient(180deg, #FFE14E 0%, #FFB93F 100%)",
         redchilli: "url('/assets/images/client-says/red-chilli-bg.webp')",
+        'bluegradient': "linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)",
+
       },
       colors: {
         "dark-blue": "#03045e",
