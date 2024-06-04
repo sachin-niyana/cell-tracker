@@ -23,6 +23,7 @@ module.exports = {
       boxShadow: {
         cellTrackerCard: " 0px 16px 25.3px 0px #00000014",
         workCard: "0px 16px 25.3px 0px #00000014",
+        helpCard: "0px 0px 24.6px 0px #00000059",
       },
     },
   },
