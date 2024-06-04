@@ -1,12 +1,12 @@
 import "./App.css";
 import Privacy from "./components/landing/Privacy";
-import Works from "./components/landing/Works";
+import Tracker from "./components/landing/Tracker";
 
 function App() {
   return (
     <>
       <Privacy />
-      <Works />
+      <Tracker />
     </>
   );
 }
