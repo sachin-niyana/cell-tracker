@@ -11,11 +11,13 @@ module.exports = {
       },
 
       backgroundImage: {
-        "hero-bg": "url('./assets/images/background/png/home-bg.png')",
+        hero: "url('./assets/images/background/png/home-bg.png')",
         tracking: "url('./assets/images/background/png/tracking-bg.png')",
+        find: "url('./assets/images/background/png/find-bg.png')",
         bluegradient:
           "linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)",
-        skygradient: "linear-gradient(7.95deg, rgba(0, 181, 216, 0.1) -3.4%, rgba(0, 0, 128, 0.1) 114.66%);"
+        skygradient:
+          "linear-gradient(7.95deg, rgba(0, 181, 216, 0.1) -3.4%, rgba(0, 0, 128, 0.1) 114.66%);",
       },
       colors: {
         "dark-blue": "#03045e",
