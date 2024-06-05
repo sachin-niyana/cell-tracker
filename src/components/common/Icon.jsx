@@ -598,7 +598,6 @@ export const Instant = () => {
     </svg>
   );
 };
-
 export const Android = () => {
   return (
     <svg
@@ -726,6 +725,27 @@ export const Simple = () => {
           />
         </clipPath>
       </defs>
+    </svg>
+  );
+};
+
+// time tracking//
+export const Checked = () => {
+  return (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1.96875 10.9688L4.78125 13.7812M8.71875 9.28125L11.5312 6.46875M6.46875 10.9688L9.28125 13.7812L16.0312 6.46875"
+        stroke="#03045E"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
     </svg>
   );
 };

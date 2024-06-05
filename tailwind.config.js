@@ -12,6 +12,7 @@ module.exports = {
 
       backgroundImage: {
         "hero-bg": "url('./assets/images/background/png/home-bg.png')",
+        tracking: "url('./assets/images/background/png/tracking-bg.png')",
         bluegradient:
           "linear-gradient(7.95deg, #00B5D8 -3.4%, #000080 114.66%)",
       },
@@ -20,7 +21,7 @@ module.exports = {
         gray: "#959595",
         "light-gray": "#fafafa",
         sky: "#00b5d8",
-        "light-sky": "#E5F8FB"
+        "light-sky": "#E5F8FB",
       },
       boxShadow: {
         cellTrackerCard: " 0px 16px 25.3px 0px #00000014",
