@@ -14,10 +14,13 @@ const Privacy = () => {
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:pt-12 sm:pt-10 pt-[34px] lg:pt-[56px]">
           {items.map((item, index) => (
-            <div key={index} className="col-span-1 flex items-center justify-center">
+            <div
+              key={index}
+              className="col-span-1 flex items-center justify-center"
+            >
               <div className="hover:bg-bluegradient max-sm:max-w-[430px] bg-black pb-3 bg-opacity-10 group xl:w-[267px] max-h-[187px] h-full sm:min-h-[261px] rounded">
                 <div className=" max-sm:max-w-[430px] xl:max-w-[267px] group-hover:border-tranparent relative min-h-[187px] sm:min-h-[261px] h-full rounded  duration-300 border group goup3  border-black border-opacity-[10%] before:rounded before:absolute before:w-full before:h-full before:bg-white before:duration-300 before:top-0 hover:before:bg-transparent">
-                  <div className="sm:w-[75px] sm:h-[70px] cursor-pointer w-[61px] h-[57px] relative z-[4] left-[-1px] border-l-[1px] border-l-black border-opacity-10 group-hover:bg-white bg-light-sky flex justify-center items-center mt-6 sm:mt-7">
+                  <div className="sm:w-[75px] sm:h-[70px] cursor-pointer w-[61px] h-[57px] relative z-[4] min-[1140px]:left-[-.5px] left-[-1px] border-l-[1px] border-l-black border-opacity-10 group-hover:bg-white bg-light-sky flex justify-center items-center mt-6 sm:mt-7">
                     {item.img}
                   </div>
                   <div className="sm:p-[14px_14px_12px_12px] p-[10px_12px_22px_12px] relative">
