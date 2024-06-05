@@ -1,5 +1,5 @@
 import React from "react";
-import mobiletrack from "../../assets/images/landing/png/iPhoneXMockupFront.png";
+import mobiletrack from "../../assets/images/landing/png/iphonelocation.png";
 import { trackerdata } from "../common/Helper";
 const Tracker = () => {
   return (
@@ -26,7 +26,6 @@ const Tracker = () => {
             {trackerdata.map((obj, index) => {
               return (
                 <div
-                  id={index}
                   className={`${
                     index == 0
                       ? "sm:w-full mt-[47px] lg:mt-0 sm:justify-center max-sm:order-0 lg:justify-start lg:w-1/2 block"

@@ -10,8 +10,37 @@ body {
   padding-left: 24px;
   padding-right: 24px;
 }
-
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
+}
+
+.bg-works-ellipse {
+  animation: borders 5s ease-in-out infinite reverse;
+}
+
+.bg-works-ellipse2 {
+  animation: borders2 5s ease-in-out infinite;
+}
+
+@keyframes borders {
+  0%,
+  100% {
+    border-radius: 63% 37% 78% 22% / 38% 53% 47% 62%;
+  }
+
+  50% {
+    border-radius: 81% 19% 37% 63% / 64% 35% 65% 36%;
+  }
+}
+
+@keyframes borders2 {
+  0%,
+  100% {
+    border-radius: 59% 30% 90% 28% / 40% 63% 37% 52%;
+  }
+
+  50% {
+    border-radius: 71% 29% 47% 53% / 44% 25% 75% 56%;
+  }
 }

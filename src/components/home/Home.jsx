@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "../common/Header";
 import Advantage from "./Advantage";
-import TimeTracking from "./TimeTracking";
+import HowWorks from "./HowWorks";
 
 const Home = () => {
   return (
     <>
       <Header />
       <Advantage />
-      <TimeTracking />
+      <HowWorks />
     </>
   );
 };

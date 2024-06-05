@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Logo, Question } from "./Icon";
+import { Logo, Question } from "./Icons";
 
 const Nav = () => {
   const [first, setfirst] = useState(false);
