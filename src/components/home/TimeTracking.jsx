@@ -27,37 +27,34 @@ const TimeTracking = () => {
             data-aos="fade-right"
             className="bg-white border-dark-blue border-opacity-20 shadow-lightShadow w-full max-w-[467px] py-[75px] px-6 md:p-[34px] rounded-tl-xl rounded-br-xl md:rounded-xl"
           >
-            <h3 className="text-primary font-normal text-2xl md:text-[32px] leading-[120%] mb-[18px]">
+            <h3 className="text-dark-blue font-normal text-2xl md:text-3xxl leading-[120%] mb-[18px]">
               Cell Tracker
             </h3>
-            <p className="text-sm sm:text-base font-normal leading-[150%] mb-3">
+            <p className="text-black text-opacity-70 text-sm sm:text-base font-normal leading-[150%] mb-3">
               Ideal for freelancers and solopreneurs
             </p>
-            <div className="flex items-center gap-[6px]">
+            <div className="flex items-center gap-1.5">
               <Checked />
-              <p className="font-normal text-sm sm:text-base leading-[150%]">
+              <p className="text-black text-opacity-70 font-normal text-sm sm:text-base leading-[150%]">
                 1 seat
               </p>
             </div>
-            <div className="flex items-center gap-[6px] pt-[6px]">
+            <div className="flex items-center gap-1.5 pt-1.5">
               <Checked />
-              <p className="font-normal text-sm sm:text-base leading-[150%]">
+              <p className="text-black text-opacity-70 font-normal text-sm sm:text-base leading-[150%]">
                 2 projects
               </p>
             </div>
-            <div className="mt-[44px]">
-              <p className="font-normal text-sm sm:text-base leading-[150%]">
-                <span className="text-primary text-[36px] md:text-[40px]">
+            <div className="mt-11">
+              <p className="text-black text-opacity-70 font-normal text-sm sm:text-base leading-[150%]">
+                <span className="text-dark-blue text-[36px] md:text-4xxl">
                   $0
                 </span>{" "}
                 free forever
               </p>
             </div>
             <div className="mt-[27px] md:max-w-[192px] w-full">
-              <button
-                type="submit"
-                className="bg-dark-blue w-full h-full py-4 px-6 rounded text-base font-semibold text-white"
-              >
+              <button className="bg-dark-blue w-full h-full py-4 px-6 rounded text-base font-semibold text-white">
                 Start your free trial
               </button>
             </div>
@@ -66,46 +63,43 @@ const TimeTracking = () => {
             data-aos="fade-left"
             className="bg-white border-[#03045E33] shadow-lightShadow w-full max-w-[467px] px-6 pt-[60px] pb-[30px] md:p-[34px] md:pt-[63px] rounded-tl-xl rounded-br-xl md:rounded-r-xl md:rounded-t-xl relative md:ml-[-10px]"
           >
-            <label className="absolute top-[-8%] right-1/2 translate-x-1/2 md:translate-x-0 md:right-[-7%] xl:right-[-9%] max-w-[157px] sm:max-w-[182px] md:max-w-[204px] w-full bg-dark-blue sm:py-3.5 py-3 sm:px-[35px] ps-6 pe-5 rounded text-xl md:text-2xl text-white font-normal leading-[160%]">
+            <label className="absolute top-[-8%] right-1/2 translate-x-1/2 md:translate-x-0 lg:right-[-7%] md:right-[-5%] xl:right-[-9%] max-w-[157px] sm:max-w-[182px] md:max-w-[204px] w-full bg-dark-blue sm:py-3.5 py-3 sm:px-[35px] ps-6 pe-5 rounded text-xl md:text-2xl text-white font-normal leading-[160%]">
               Most Popular
             </label>
-            <h3 className="text-primary font-normal text-2xl md:text-[32px] leading-[120%] mb-[18px]">
+            <h3 className="text-dark-blue font-normal text-2xl md:text-3xxl leading-[120%] mb-[18px]">
               Cell Tracker{" "}
               <span className="text-secondary font-extrabold">Pro</span>
             </h3>
-            <p className="text-sm sm:text-base font-normal leading-[150%] mb-3">
+            <p className="text-black text-opacity-70 text-sm sm:text-base font-normal leading-[150%] mb-3">
               Perfect for teams, startups, and growing businesses.
             </p>
-            <div className="flex items-center gap-[6px]">
+            <div className="flex items-center gap-1.5">
               <Checked />
-              <p className="font-normal text-sm sm:text-base leading-[150%]">
+              <p className="text-black text-opacity-70 font-normal text-sm sm:text-base leading-[150%]">
                 Unlimited seats
               </p>
             </div>
-            <div className="flex items-center gap-[6px] pt-[6px]">
+            <div className="flex items-center gap-1.5 pt-1.5">
               <Checked />
-              <p className="font-normal text-sm sm:text-base leading-[150%]">
+              <p className="text-black text-opacity-70 font-normal text-sm sm:text-base leading-[150%]">
                 Unlimited projects
               </p>
             </div>
             <div className="mt-[44px]">
-              <p className="font-normal text-sm sm:text-base leading-[150%] max-w-[204px] sm:max-w-full">
-                <span className="text-primary text-[36px] md:text-[40px]">
+              <p className="text-black text-opacity-70 font-normal text-sm sm:text-base leading-[150%] max-w-[204px] sm:max-w-full">
+                <span className="text-dark-blue text-4xl md:text-4xxl">
                   $10.80
                 </span>{" "}
                 per seat/month (billed annually)
               </p>
             </div>
-            <div className="flex xl:items-center mt-[27px] gap-[9px] sm:gap-4 flex-col xl:flex-row">
+            <div className="flex xl:items-center mt-7 gap-2 sm:gap-4 flex-col xl:flex-row">
               <div className="md:max-w-[192px] w-full">
-                <button
-                  type="submit"
-                  className="bg-dark-blue w-full h-full py-4 px-6 rounded text-base font-semibold text-white"
-                >
+                <button className="bg-dark-blue w-full h-full py-4 px-6 rounded text-base font-semibold text-white">
                   30-Day Free Trial
                 </button>
               </div>
-              <p className="text-base font-normal text-center md:text-start">
+              <p className="text-black text-opacity-70 text-base font-normal text-center md:text-start">
                 No credit card required.
               </p>
             </div>

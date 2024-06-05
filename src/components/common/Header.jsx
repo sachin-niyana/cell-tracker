@@ -2,10 +2,16 @@ import React, { useState } from "react";
 import { BottomArrow, Flag, Headphone, TopRightArrow } from "./Icon";
 import iphone from "../../assets/images/home/webp/iphone.webp";
 import herobottom from "../../assets/images/background/png/hero-bottom-img.png";
+import Nav from "./Nav";
 const Header = () => {
   return (
     <div className="bg-hero-bg pb-16 w-full object-cover bg-center bg-cover relative">
-      <img className="absolute bottom-0" src={herobottom} alt="herobottom" />
+      <Nav />
+      <img
+        className="absolute bottom-[-1px]"
+        src={herobottom}
+        alt="herobottom"
+      />
       <div className="my-container mx-auto">
         <div className="flex sm:flex-row flex-col sm:gap-12 gap-8 justify-center items-center">
           <div className="flex flex-col">
@@ -32,10 +38,7 @@ const Header = () => {
                     className="w-full my-3.5 h-7 outline-none leading-[166%] text-black text-base font-normal"
                     type="number"
                   />
-                  <button
-                    type="submit"
-                    className="bg-dark-blue h-full py-4 px-6 rounded text-base font-semibold text-white flex items-center gap-1"
-                  >
+                  <button className="bg-dark-blue h-full py-4 px-6 rounded text-base font-semibold text-white flex items-center gap-1">
                     <span>
                       <TopRightArrow />
                     </span>
