@@ -1,9 +1,9 @@
 import React from "react";
 import bottom from "../../assets/images/background/png/hero-bottom-img.png";
-import { Checked } from "../common/Icon";
+import { Checked } from "../common/Icons";
 const TimeTracking = () => {
   return (
-    <div className="bg-tracking bg-cover bg-no-repeat bg-center pt-[126px] pb-[120px] sm:py-[180px] lg:py-[222px] relative">
+    <div className="bg-tracking bg-cover bg-no-repeat bg-center pt-[126px] pb-[111px] sm:py-[180px] lg:py-[222px] relative">
       <img
         className="absolute top-[-1px] left-0 rotate-180 w-full"
         src={bottom}
