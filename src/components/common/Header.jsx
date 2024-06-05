@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BottomArrow, Flag, Headphone, TopRightArrow } from "./Icon";
 import iphone from "../../assets/images/home/webp/iphone.webp";
 import herobottom from "../../assets/images/background/png/hero-bottom-img.png";
@@ -26,32 +26,37 @@ const Header = () => {
                   </p>
                   <BottomArrow />
                 </div>
-                <input
-                  required
-                  className=" w-full my-3.5 h-7 outline-none leading-[166%] text-black text-base font-normal"
-                  type="number"
-                />
-                <button className="bg-dark-blue h-full py-4 px-6 rounded text-base font-semibold text-white flex items-center gap-1">
-                  <span>
-                    <TopRightArrow />
-                  </span>
-                  Locate
-                </button>
+                <form className="w-full flex gap-2">
+                  <input
+                    required
+                    className="w-full my-3.5 h-7 outline-none leading-[166%] text-black text-base font-normal"
+                    type="number"
+                  />
+                  <button
+                    type="submit"
+                    className="bg-dark-blue h-full py-4 px-6 rounded text-base font-semibold text-white flex items-center gap-1"
+                  >
+                    <span>
+                      <TopRightArrow />
+                    </span>
+                    Locate
+                  </button>
+                </form>
               </div>
             </div>
           </div>
           <div className="relative">
-            <div className="absolute xl:top-[41%] top-[45%] xl:right-[-15px]  sm:left-auto md:max-w-[280px] sm:max-w-[200px] max-w-[164px] md:p-[18px] sm:p-3 p-2 rounded-tl-xl rounded-br-xl w-full bg-white shadow-helpCard">
+            <div className="absolute xl:top-[41%] top-[45%] xl:right-[-15px] sm:right-0 sm:left-auto left-[50%] lg:max-w-[280px] sm:max-w-[200px] max-w-[164px] md:p-[18px] sm:p-3 p-2 rounded-tl-xl rounded-br-xl w-full bg-white shadow-helpCard">
               <div className="flex justify-between items-center">
-                <p className="font-bold md:text-2xl text-xl text-sky ">
+                <p className="font-bold lg:text-2xl text-xl text-sky ">
                   Need help?
                 </p>
                 <Headphone />
               </div>
-              <p className="font-normal md:text-base text-sm text-dark-blue max-w-[198px] leading-normal sm:pb-3.5 pb-3">
+              <p className="font-normal lg:text-base text-sm text-dark-blue max-w-[198px] leading-normal sm:pb-3.5 pb-3">
                 Get help with technical, account and billing enquiries.
               </p>
-              <button className="py-3.5 rounded bg-dark-blue text-white font-semibold md:text-base text-sm w-full">
+              <button className="py-3.5 rounded bg-dark-blue text-white font-semibold lg:text-base text-sm w-full">
                 Customer Support
               </button>
             </div>

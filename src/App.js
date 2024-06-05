@@ -1,16 +1,15 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Header from "./components/common/Header";
-import Advantage from "./components/home/Advantage";
-import Privacy from "./components/landing/Privacy";
-import Tracker from "./components/landing/Tracker";
+import Home from "./components/home/Home";
+import Landing from "./components/landing/Landing";
 
 function App() {
   return (
     <>
-      <Header />
-      <Advantage />
-      <Privacy />
-      <Tracker />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/landing" element={<Landing />} />
+      </Routes>
     </>
   );
 }
