@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BottomArrow, Flag, Headphone, TopRightArrow } from "./Icon";
+import { BottomArrow, Flag, Headphone, TopRightArrow } from "./Icons";
 import iphone from "../../assets/images/home/webp/iphone.webp";
 import herobottom from "../../assets/images/background/png/hero-bottom-img.png";
 const Header = () => {

@@ -12,7 +12,9 @@ import {
   Settings,
   Simple,
   Instant,
-} from "./Icon";
+  Locateicon,
+  Trackicon,
+} from "./Icons";
 export const items = [
   {
     img: <Puzzale />,
@@ -92,5 +94,20 @@ export const trackerdata = [
     img: <Unlimiteddata />,
     title: "No installation required",
     description: "Send unlimited geo-location requests",
+  },
+];
+
+export const locatedata = [
+  {
+    img: <Locateicon />,
+    title: "Locate the people important to you, from any web device",
+    description:
+      "Family will always be number one and keeping them safe has never been more important. Locateaphone.com allows you to keep track of up to 5 mobile phones, providing you with accurate location information from any web enabled device. Keep them safe without being invasive.",
+  },
+
+  {
+    img: <Trackicon />,
+    title: "Accurate location info for any phone on any network.",
+    description: "Instantly track the location of a mobile phone at any time. No apps, no downloads, Locateaphone.com works with any Android or iPhone device. Locateaphone.com uses a range of different tools to find the location of a phone. Our unique phone location walkthrough process will determine the best tools to use for each situation.",
   },
 ];
