@@ -12,6 +12,9 @@ import {
   Settings,
   Simple,
   Instant,
+  ContectBook,
+  Messages2,
+  Location2,
 } from "./Icon";
 export const items = [
   {
@@ -92,5 +95,23 @@ export const trackerdata = [
     img: <Unlimiteddata />,
     title: "No installation required",
     description: "Send unlimited geo-location requests",
+  },
+];
+
+export const worksData = [
+  {
+    icon: <ContectBook/>,
+    title: 'Provide target phone number',
+    description: 'Enter the mobile number you want to locate in the provided field.'
+  },
+  {
+    icon: <Messages2/>,
+    title: 'Customize the message',
+    description: 'Create a message that will make them approve access to their location. You can always choose the one by default. Specify sender name.'
+  },
+  {
+    icon: <Location2/>,
+    title: 'Receive their precise location',
+    description: 'Get notification as soon as GEOfinder locates the pesron on a map. View their accurate position.'
   },
 ];

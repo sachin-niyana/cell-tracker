@@ -13,7 +13,7 @@ const Tracker = () => {
               for Under $1
             </span>
           </h2>
-          <p className="font-normal text-sm sm:text-base text-black opacity-[70%] leading-[21px] sm:leading-6 text-center max-w-[442px] mx-auto pt-2">
+          <p className="font-normal text-sm sm:text-base text-black opacity-[70%] leading-[21px] sm:leading-6 text-center sm:max-w-[442px] max-w-[279px] mx-auto pt-2">
             Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi
             sit elit rhoncus vestibulum fames libero id.
           </p>
