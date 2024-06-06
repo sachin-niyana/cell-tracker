@@ -41,7 +41,7 @@ const Nav = () => {
             </span>
             <Link
               onClick={closeNav}
-              className="md:text-white text-black duration-500 text-base leading-[160%] font-normal"
+              className="md:text-white text-black duration-500 text-base leading-[160%] relative font-normal after:w-0 after:bg-white after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
               to="/landing"
             >
               Quick Help
@@ -51,14 +51,14 @@ const Nav = () => {
           <li>
             <Link
               onClick={closeNav}
-              className="md:text-white text-black duration-500 text-base leading-[160%] font-normal"
+              className="md:text-white text-black duration-500 text-base leading-[160%] font-normal relative after:w-0 after:bg-white after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
               href="#home"
             >
               Log In
             </Link>
           </li>
           <li className=" pt-[115px] md:pt-0 max-w-[314px] md:max-w-[182px] md:w-auto w-full ">
-            <button className="bg-dark-blue w-full py-4 px-6 rounded text-base leading-[166%] font-semibold text-white">
+            <button className="md:bg-white bg-dark-blue md:w-[182px] w-[314px] md:h-[59px] h-[51px] hover:scale-[1.1] hover:duration-300 duration-300 rounded text-base leading-[166%] font-semibold md:text-dark-blue text-white">
               Create an Account
             </button>
           </li>

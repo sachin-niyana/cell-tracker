@@ -97,7 +97,7 @@ const AccountForm = () => {
             </div>
           </div>
         </div>
-        <button className=" py-4 w-full rounded bg-dark-blue font-semibold text-base leading-[26.59px] text-white  mt-[46px]">
+        <button className=" py-[16px] w-full rounded hover:scale-[1.0] hover:duration-300 bg-dark-blue font-semibold outline outline-transperant text-base leading-[26.59px] text-white  mt-[46px] after:-z-20 after:absolute hover:text-dark-blue after:h-1 after:w-1 after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
           Buy Now (50C)
         </button>
       </form>

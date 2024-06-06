@@ -4,6 +4,9 @@ html,
 body {
   font-family: Mukta, sans-serif !important;
 }
+.overflow-x{
+  overflow-x: clip;
+}
 
 .my_container {
   max-width: 1188px;
