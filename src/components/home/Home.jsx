@@ -1,8 +1,9 @@
 import React from "react";
-import Header from "../common/Header";
+import Header from "./Header";
 import Advantage from "./Advantage";
 import HowWorks from "./HowWorks";
 import TimeTracking from "./TimeTracking";
+import FindPhone from "./FindPhone";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Advantage />
       <HowWorks />
       <TimeTracking />
+      <FindPhone />
     </>
   );
 };

@@ -18,11 +18,11 @@ const Advantage = () => {
             className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 sm:px-3  mt-[18px] sm:mt-6"
           >
             <div
-              className={`lg:max-w-[271px] mx-auto md:mx-0 h-full min-h-[184px] sm:min-h-[253px] hover:border border-solid hover:border-transparent duration-300 border-dark-blue border-opacity-10 hover:shadow-none shadow-cellTrackerCard rounded-xl ${
+              className={`lg:max-w-[271px] mx-auto md:mx-0 h-full min-h-[184px] border sm:min-h-[253px] hover:border border-solid hover:border-transparent duration-300 border-dark-blue border-opacity-10 hover:shadow-none shadow-cellTrackerCard rounded-xl ${
                 index % 2 != 0 ? "lg:translate-y-6" : ""
               }`}
             >
-              <div className="lg:max-w-[271px] mx-auto md:mx-0 h-full min-h-[184px] sm:min-h-[253px] p-5 border-[2px] hover:border border-solid hover:border-dark-blue duration-300 border-dark-blue border-opacity-10  rounded-xl">
+              <div className="lg:max-w-[271px] mx-auto md:mx-0 h-full min-h-[184px] sm:min-h-[253px] p-5 border hover:border border-solid hover:border-dark-blue duration-300 border-dark-blue border-opacity-10  rounded-[11px]">
                 <span>{advantage.icon}</span>
                 <p className="font-normal text-[24px] leading-[28.8px] text-dark-blue mt-1">
                   {advantage.title}

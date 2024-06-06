@@ -16,7 +16,7 @@ const Navbar = () => {
       document.body.classList.remove("max-md:overflow-hidden");
   }
   return (
-    <div className="my-container mx-auto bg-dark-blue">
+    <div className="my-container mx-auto">
       <div className="max-w-[1164px] px-6 sm:px-3 mx-auto pt-[27px]">
                         <div className="flex justify-between items-center">
                             <a href="/" className="relative z-[13]" aria-label="logo">

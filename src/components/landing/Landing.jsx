@@ -1,14 +1,15 @@
 import React from "react";
 import Privacy from "./Privacy";
 import Tracker from "./Tracker";
-import Works  from "./Works";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Works from "./Works";
+import Hero from "./Hero";
 
 const Landing = () => {
   return (
     <>
-    <Navbar/>
+      <Hero />
       <Privacy />
       <Tracker />
       <Works/>
