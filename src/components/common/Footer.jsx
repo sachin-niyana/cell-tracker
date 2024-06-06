@@ -7,7 +7,7 @@ import footerlogo from "../../assets/images/landing/png/footerlogo.png";
 const Footer = () => {
   return (
     <div className=" relative">
-      <span className=" absolute left-0 top-[-5%] hidden md:block">
+      <span className=" absolute left-0 top-[-120%] hidden md:block">
         <img
           className=" md:w-[106px] w-[41px] md:h-[113px] h-[44px]"
           src={vector}
@@ -24,18 +24,20 @@ const Footer = () => {
       <div className="my_container mx-auto overflow-hidden">
         <div className="flex flex-wrap flex-row items-center pb-14 md:pb-12">
           <div className="w-full md:w-1/3 flex justify-center md:justify-start">
-            <img
-              className=" w-[249] h-[36px]"
-              src={footerlogo}
-              alt="footerlogo"
-            />
+            <span>
+              <img
+                className=" sm:w-[249] w-[211px] sm:h-[30px] h-[29px]"
+                src={footerlogo}
+                alt="footerlogo"
+              />
+            </span>
           </div>
           <div className="w-full md:w-1/3 flex justify-center md:mt-4 mt-9 lg:mt-0 ">
             <ul className="flex gap-6 items-center">
               <li>
                 <a
                   href="/home"
-                  className="font-normal text-base text-black opacity-[70%]"
+                  className="font-normal sm:text-base text-sm text-black opacity-[70%]"
                 >
                   Home
                 </a>
@@ -43,7 +45,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/how-it-works"
-                  className="font-normal text-base text-black opacity-[70%]"
+                  className="font-normal sm:text-base text-sm text-black opacity-[70%]"
                 >
                   How It Works
                 </a>
@@ -51,7 +53,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/features"
-                  className="font-normal text-base text-black opacity-[70%]"
+                  className="font-normal sm:text-base text-sm text-black opacity-[70%]"
                 >
                   Features
                 </a>

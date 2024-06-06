@@ -78,8 +78,8 @@ const Hero = () => {
               <p className="font-normal md:text-base text-sm text-black !leading-[150%] sm:pb-3.5 pb-3 pt-1.5">
                 3 Succession Walk, Fish Island, London E3 2RX, United Kingdom
               </p>
-              <div className="relative">
-                <LeftVector className="w-[23px] h-[21px] absolute -left-2.5 md:w-[38px] md:h-10 top-[-2px] md:-left-[17px]" />
+              <div className="absolute sm:bottom-[2%] bottom-[6%] left-0">
+                <LeftVector className="w-[23px] h-[21px] " />
               </div>
               <p className="font-normal text-xs md:text-sm text-black !leading-normal text-end">
                 June 02,2024 17:34
