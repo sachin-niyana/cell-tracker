@@ -944,7 +944,7 @@ export const Trackicon = () => {
 // work
 export const ContectBook = () => {
   return (
-    <svg
+    <svg className=" sm:w-[36px] w-[29px] sm:h-[37px] h-[29px] "
       width="36"
       height="37"
       viewBox="0 0 36 37"
@@ -968,7 +968,7 @@ export const ContectBook = () => {
 };
 export const Messages2 = () => {
   return (
-    <svg
+    <svg className=" sm:w-[36px] w-[29px] sm:h-[36px] h-[29px] "
       width="36"
       height="36"
       viewBox="0 0 36 36"
@@ -1000,7 +1000,7 @@ export const Messages2 = () => {
 };
 export const Location2 = () => {
   return (
-    <svg
+    <svg className=" sm:w-[26px] w-[29px] sm:h-[37px] h-[29px] "
       width="26"
       height="37"
       viewBox="0 0 26 37"
@@ -1020,7 +1020,7 @@ export const Location2 = () => {
 };
 export const Dotedline = () => {
   return (
-    <svg
+    <svg className=" sm:w-[152px] w-[111px] sm:h-[19px] h-[14px]"
       width="152"
       height="19"
       viewBox="0 0 152 19"
@@ -1046,7 +1046,7 @@ export const Dotedline = () => {
 export const LeftVector = () => {
   return (
     <svg
-      className="lg:w-[106px] sm:w-75px] w-41px] h-[44px] sm:h-[80px] lg:h-[113px]"
+      className="sm:w-[37px] w-[22px] sm:h-[39px] h-[21px]"
       width="106"
       height="113"
       viewBox="0 0 106 113"

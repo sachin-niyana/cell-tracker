@@ -4,8 +4,8 @@ import vector from "../../assets/images/landing/png/vector1.png";
 
 const Privacy = () => {
   return (
-    <div className=" relative pt-[76px]">
-      <span className=" absolute right-0 lg:top-[27%] md:top-[13%] top-[3%] ">
+    <div className=" relative sm:pt-[76px] pt-8">
+      <span className=" absolute right-0 lg:top-[27%] md:top-[13%] top-[-4%] ">
         <img
           className=" md:w-[106px] w-[41px] md:h-[113px] h-[44px]"
           src={vector}
@@ -20,7 +20,7 @@ const Privacy = () => {
           Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
           elit rhoncus vestibulum fames libero id.
         </p>
-        <div className="flex flex-row flex-wrap sm:-mx-3 items-center justify-center md:pt-12 sm:pt-10 pt-[34px] lg:pt-[56px]">
+        <div className="flex flex-row flex-wrap sm:-mx-3 items-center justify-center md:pt-12 sm:pt-10 pt-[18px] lg:pt-[56px]">
           {items.map((item, index) => (
             <div
               key={index}

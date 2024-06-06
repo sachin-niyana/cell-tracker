@@ -21,7 +21,7 @@ const MyNavbar = () => {
         <div className="flex justify-between items-center">
           <a href="/" className="relative z-[13]" aria-label="logo">
             {navBar ? (
-              <img className=" w-[102px] h-[17px]" src={logo2} alt="logo2" />
+              <img className=" w-[102px] h-[17px] mt-4" src={logo2} alt="logo2" />
             ) : (
               <Logo className="w-[98px] h-[13px]" />
             )}
@@ -61,11 +61,11 @@ const MyNavbar = () => {
                 Features{" "}
               </a>
             </li>
-            <button className=" mt-[32px] md:hidden max-w-[315px] bg-dark-blue text-sm leading-[23px] bg-dark-blue font-semibold text-white py-[14px] px-7 rounded-[4px] hover:text-dark-blue hover:bg-dark-blue duration-300  border-transparent border-2 w-full hover:border-dark-blue ">
+            <button className=" mt-[32px] md:hidden max-w-[315px] hover:scale-50 text-sm leading-[23px] bg-dark-blue font-semibold text-white py-[14px] px-7 rounded-[4px]  duration-300  border-transparent border-2 w-full  ">
               Log In
             </button>
           </ul>
-          <button className=" text-dark-blue max-md:hidden text-base leading-7 font-semibold bg-white py-[14px] md:py-4 px-7 rounded-[4px] hover:bg-dark-blue hover:text-white duration-300">
+          <button className=" text-dark-blue max-md:hidden text-base leading-7 font-semibold bg-white py-[14px] md:py-4 px-7 rounded-[4px] duration-300">
             Log In
           </button>
           <div className="md:hidden" onClick={showNav}>
