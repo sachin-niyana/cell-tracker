@@ -29,6 +29,8 @@ module.exports = {
       },
       boxShadow: {
         cellTrackerCard: " 0px 16px 25.3px 0px #00000014",
+        light: "0px 16px 25.3px 0px #00000014",
+
         workCard: "0px 16px 25.3px 0px #00000014",
         accountCard: "0px 0px 9.5px 0px #00000014",
         accountForm:

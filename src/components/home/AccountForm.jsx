@@ -5,10 +5,10 @@ const AccountForm = () => {
   return (
     <>
       <form>
-        <p className="text-dark-blue text-base font-normal sm:pt-2 pt-1.5">
+        <p className="text-dark-blue sm:text-base text-sm font-normal sm:pt-2 pt-1.5">
           Your Address
         </p>
-        <div className="flex mt-2 items-center border border-dark-blue border-opacity-[0.06] border-solid rounded-[4px] relative">
+        <div className="flex sm:mt-2 mt-1.5 items-center border border-dark-blue border-opacity-[0.06] border-solid rounded-[4px] relative">
           <div className="bg-dark-gray sm:px-3 px-3.5 sm:py-3.5 py-3 max-w-[48px] sm:max-w-full">
             <span className="max-w-[20px] sm:max-w-[24px] w-full">
               <Home />
@@ -19,13 +19,16 @@ const AccountForm = () => {
             placeholder="Address Line 1"
           />
         </div>
-        <p className="text-base font-normal text-gray pt-1 pb-5">
+        <p className="sm:text-base text-sm font-normal text-gray pt-1 sm:pb-5 pb-[18px]">
           Our enter address manually
         </p>
-        <label htmlFor="email" className="text-dark-blue text-base font-normal">
+        <label
+          htmlFor="email"
+          className="text-dark-blue sm:text-base text-sm font-normal"
+        >
           Email Address
         </label>
-        <div className="flex mt-2 items-center border mb-5 border-dark-blue border-opacity-[0.06] border-solid rounded-[4px] relative">
+        <div className="flex sm:mt-2 mt-1.5 items-center border sm:mb-5 mb-[18px] border-dark-blue border-opacity-[0.06] border-solid rounded-[4px] relative">
           <div className="bg-dark-gray sm:px-3 px-3.5 sm:py-3.5 py-3 max-w-[48px] sm:max-w-full">
             <span className="max-w-[20px] sm:max-w-[24px] w-full">
               <Mail />
@@ -39,11 +42,11 @@ const AccountForm = () => {
         </div>
         <label
           htmlFor="number"
-          className="text-dark-blue text-base font-normal"
+          className="text-dark-blue sm:text-base text-sm font-normal"
         >
           Card Number (Visa or Mastercard)
         </label>
-        <div className="flex mt-2 mb-5 items-center border border-dark-blue border-opacity-[0.06] border-solid rounded-[4px] relative">
+        <div className="flex sm:mt-2 mt-1.5 sm:mb-5 mb-[18px] items-center border border-dark-blue border-opacity-[0.06] border-solid rounded-[4px] relative">
           <div className="bg-dark-gray sm:px-3 px-3.5 sm:py-3.5 py-3 max-w-[48px] sm:max-w-full">
             <span className="max-w-[20px] sm:max-w-[24px] w-full">
               <ValidCard />
@@ -59,11 +62,11 @@ const AccountForm = () => {
           <div className="flex-col flex w-full">
             <label
               htmlFor="date"
-              className="text-dark-blue text-base font-normal"
+              className="text-dark-blue sm:text-base text-sm font-normal"
             >
               Expiry Date
             </label>
-            <div className="flex mt-2 items-center border border-dark-blue border-opacity-[0.06] border-solid rounded-[4px] relative">
+            <div className="flex sm:mt-2 mt-1.5 items-center border border-dark-blue border-opacity-[0.06] border-solid rounded-[4px] relative">
               <div className="bg-dark-gray sm:px-3 px-3.5 sm:py-3.5 py-3 max-w-[48px] sm:max-w-full">
                 <span className="max-w-[20px] sm:max-w-[24px] w-full">
                   <Calender />
@@ -79,11 +82,11 @@ const AccountForm = () => {
           <div className="flex flex-col w-full">
             <label
               htmlFor="code"
-              className="text-dark-blue text-base font-normal"
+              className="text-dark-blue sm:text-base text-sm font-normal"
             >
               Card Security Code
             </label>
-            <div className="flex mt-2 items-center border border-dark-blue border-opacity-[0.06] border-solid rounded-[4px] relative">
+            <div className="flex sm:mt-2 mt-1.5 items-center border border-dark-blue border-opacity-[0.06] border-solid rounded-[4px] relative">
               <div className="bg-dark-gray sm:px-3 px-3.5 sm:py-3.5 py-3 max-w-[48px] sm:max-w-full">
                 <span className="max-w-[20px] sm:max-w-[24px] w-full">
                   <Lock />
@@ -97,7 +100,7 @@ const AccountForm = () => {
             </div>
           </div>
         </div>
-        <button className=" py-4 w-full rounded bg-dark-blue font-semibold text-base leading-[26.59px] text-white  mt-[46px]">
+        <button className=" py-4 w-full rounded bg-dark-blue font-semibold sm:text-base text-sm leading-[26.59px] text-white sm:mt-[46px] mt-[38px]">
           Buy Now (50C)
         </button>
       </form>

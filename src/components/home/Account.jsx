@@ -32,7 +32,7 @@ const Account = () => {
                 className="flex items-center gap-3 md:gap-2 mt-[18px] sm:mt-[11px] w-full"
                 key={index}
               >
-                <div className="sm:max-w-[48px] max-w-[38px] sm:max-h-[54px] max-h-[30px] bg-[#DDF9FF] w-full p-2 sm:p-3 h-full bg_works_ellipse flex items-center justify-center mb-1">
+                <div className="sm:max-w-[48px] max-w-[38px] sm:max-h-[54px] max-h-[30px] bg-sky bg-opacity-20 w-full p-2 sm:p-3 h-full bg_works_ellipse flex items-center justify-center mb-1">
                   <span className="max-w-[18px] sm:max-w-6 w-full">
                     {obj.icon}
                   </span>
@@ -56,29 +56,27 @@ const Account = () => {
             data-aos="fade-left"
             className="shadow-accountForm rounded-xl bg-white w-full max-w-[550px] lg:max-w-[679px] overflow-hidden"
           >
-            <div className="bg-dark-blue py-6 sm:py-[14px] px-2 sm:px-4 lg:px-5">
+            <div className="bg-dark-blue py-6 sm:py-3.5 px-2 sm:px-4 lg:px-5">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-[6px] md:gap-3">
                   <div className="size-5 lg:size-[30px] bg-secondary rounded-full flex items-center justify-center">
-                    <span className="size-[14px] lg:size-[22px] bg-white rounded-full border-sky border-solid border-4"></span>
+                    <span className="size-3.5 lg:size-[22px] bg-white rounded-full border-sky border-solid border-4"></span>
                   </div>
                   <p className="text-2xl md:text-xl lg:text-3xl font-normal text-white">
                     Debit/Credit Card
                   </p>
                 </div>
                 <div className="flex items-center gap-1.5 sm:gap-3 xl:gap-[34px]">
-                  <span className="max-w-[34px] lg:max-w-[61px]">
-                    <Visa />
-                  </span>
+                  <Visa />
                   <img
-                    className="max-w-[24px] md:max-w-[54px]"
+                    className="max-w-6 md:max-w-[54px]"
                     src={mastercircle}
                     alt="mastercircle"
                   />
                 </div>
               </div>
             </div>
-            <div className="pb-[42px] sm:pb-[36px] px-2 sm:px-3 lg:px-[24px] sm:pt-[30px] pt-10 border-t-0 rounded-b-xl border-dark-blue border-opacity-10 border-solid border">
+            <div className="pb-[42px] sm:pb-9 px-2 sm:px-3 lg:px-6 sm:pt-[30px] pt-[42px] border-t-0 rounded-b-xl border-dark-blue border-opacity-10 border-solid border">
               <AccountForm />
             </div>
           </div>

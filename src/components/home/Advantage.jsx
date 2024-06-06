@@ -24,7 +24,7 @@ const Advantage = () => {
             >
               <div className="lg:max-w-[271px] mx-auto md:mx-0 h-full min-h-[184px] sm:min-h-[253px] p-5 border hover:border border-solid hover:border-dark-blue duration-300 border-dark-blue border-opacity-10  rounded-[11px]">
                 <span>{advantage.icon}</span>
-                <p className="font-normal text-[24px] leading-[28.8px] text-dark-blue mt-1">
+                <p className="font-normal md:text-2xl text-xl leading-[28.8px] text-dark-blue mt-1">
                   {advantage.title}
                 </p>
                 <p className="text-base leading-6 font-normal text-black opacity-70 mt-[6px]">

@@ -13,7 +13,7 @@ const HowWorks = () => {
           elit rhoncus vestibulum fames libero id.
         </p>
         <div className=" flex flex-wrap flex-row -mx-3 pt-[60px] lg:pt-[90px] xl:pt-[88px] items-center justify-center">
-          <div className=" lg:w-6/12 md:w-10/12 w-full px-3 relative">
+          <div className=" lg:w-6/12 md:w-10/12 w-full lg:px-3 relative">
             <div className=" items-center flex flex-col justify-center min-[1328px]:-translate-x-[70px] min-[1328px]:w-[680px]">
               <div className=" bg-skygradient bg_works_ellipse max-lg:w-full w-[302px] min-h-[334px] h-full lg:w-[450px] xl:w-[577.99px] xl:h-[577.95px] absolute"></div>
               <div className=" bg-skygradient bg_works_ellipse2 max-lg:w-full w-[284px] min-h-[295px] h-full lg:w-[400px] xl:w-[569px] xl:h-[490px] absolute"></div>
@@ -28,9 +28,11 @@ const HowWorks = () => {
                     index == 1 ? "mt-[18px]" : ""
                   } flex w-full max-w-[536px] shadow-workCard flex-col items-start border border-black border-opacity-[8%] rounded-xl  px-5 pb-[13px] pt-5 min-h-[273px]`}
                 >
-                  <a href="/" className=" max-sm:max-w-[38px] max-sm:h-[33px]">
-                    {obj.img}
-                  </a>
+                  <div className="sm:max-w-[48px] max-w-[38px] sm:max-h-[54px] max-h-[30px] bg-sky bg-opacity-20 w-full p-2 sm:p-3 h-full bg_works_ellipse flex items-center justify-center mb-1">
+                    <span className="max-w-[18px] sm:max-w-6 w-full">
+                      {obj.img}
+                    </span>
+                  </div>
                   <p
                     className={`${
                       index == 1 ? "mt-2" : ""

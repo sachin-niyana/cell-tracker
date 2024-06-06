@@ -3,6 +3,7 @@ import { Facebook, Insta, Linkedin, Logo, Twiter } from "../common/Icons";
 import vector from "../../assets/images/landing/png/vector2.png";
 import vector1 from "../../assets/images/landing/png/vector1.png";
 import footerlogo from "../../assets/images/landing/png/footerlogo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -62,18 +63,34 @@ const Footer = () => {
           </div>
           <div className="w-full md:w-1/3 flex justify-center md:mt-4 mt-8 lg:mt-0 ">
             <div className="flex gap-4">
-              <span className=" hover:-translate-y-2 hover:duration-300 duration-300">
+              <Link
+                to="https://in.linkedin.com/"
+                target="_blank"
+                className=" hover:-translate-y-2 hover:duration-300 duration-300"
+              >
                 <Linkedin />
-              </span>
-              <span className=" hover:-translate-y-2 hover:duration-300 duration-300">
+              </Link>
+              <Link
+                to="https://www.instagram.com/"
+                target=" _blank"
+                className=" hover:-translate-y-2 hover:duration-300 duration-300"
+              >
                 <Insta />
-              </span>
-              <span className=" hover:-translate-y-2 hover:duration-300 duration-300">
+              </Link>
+              <Link
+                to="https://www.facebook.com/"
+                target="_blank"
+                className=" hover:-translate-y-2 hover:duration-300 duration-300"
+              >
                 <Facebook />
-              </span>
-              <span className=" hover:-translate-y-2 hover:duration-300 duration-300">
+              </Link>
+              <Link
+                to="https://x.com/?lang=en"
+                target=" _blank"
+                className=" hover:-translate-y-2 hover:duration-300 duration-300"
+              >
                 <Twiter />
-              </span>
+              </Link>
             </div>
           </div>
         </div>
