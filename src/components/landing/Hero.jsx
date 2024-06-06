@@ -1,12 +1,11 @@
 import React from "react";
-import iphone from "../../assets/images/home/webp/iphone.webp";
-import herobottom from "../../assets/images/background/png/hero-bottom-img.png";
+import iphone from "../../assets/images/landing/webp/header-iphone.webp";
+import headerelips from "../../assets/images/background/png/bottom-elips.png";
 import Nav from "../common/Nav";
 import {
   BottomArrow,
   Flag,
   Found,
-  Headphone,
   LeftVector,
   TopRightArrow,
 } from "../common/Icons";
@@ -16,19 +15,20 @@ const Hero = () => {
       <Nav />
       <img
         className="absolute bottom-[-1px]"
-        src={herobottom}
+        src={headerelips}
         alt="herobottom"
       />
-      <div className="my-container mx-auto">
-        <div className="flex sm:flex-row flex-col sm:gap-12 gap-8 justify-center items-center">
+      <div className="my_container mx-auto relative">
+        <div className="flex sm:flex-row flex-col sm:gap-0 gap-16 justify-center items-center">
           <div className="flex flex-col">
             <h1 className="max-w-[520px] sm:text-start text-center leading-[100%] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
-              Find the location{" "}
-              <span className="font-light">of any phone by its number</span>
+              Locate any phone,{" "}
+              <span className="font-light">anywhere, anytime</span>
             </h1>
-            <p className="text-white font-normal text-base max-w-[520px] sm:text-start text-center sm:pt-2 pt-3">
-              Add phones to your account & track them when neededAdd phones to
-              your account & track them when needed
+            <p className="text-white font-normal sm:text-base text-sm max-w-[550px] sm:text-start text-center sm:pt-2 pt-3">
+              Lorem ipsum dolor sit amet consectetur. Nisl vitae arcu volutpat
+              nunc cursus. Lacus ornare aliquet condimentum elementum elementum
+              nisl nibh sed. Egestas aliquam id quam nunc.
             </p>
             <div className="bg-white sm:mx-0 mx-auto rounded ps-2.5 max-w-[448px] sm:mt-4 mt-8">
               <div className="flex justify-start items-center gap-2">

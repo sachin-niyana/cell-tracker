@@ -4,6 +4,7 @@ import Advantage from "./Advantage";
 import HowWorks from "./HowWorks";
 import TimeTracking from "./TimeTracking";
 import FindPhone from "./FindPhone";
+import Account from "./Account";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Advantage />
       <HowWorks />
       <TimeTracking />
+      <Account />
       <FindPhone />
     </>
   );

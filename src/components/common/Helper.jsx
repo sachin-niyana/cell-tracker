@@ -17,6 +17,12 @@ import {
   Location2,
   Locateicon,
   Trackicon,
+  Unlimited,
+  Track,
+  Multiple,
+  Protect,
+  Money,
+  Private,
 } from "./Icons";
 
 export const items = [
@@ -136,4 +142,13 @@ export const worksData = [
     description:
       "Get notification as soon as GEOfinder locates the pesron on a map. View their accurate position.",
   },
+];
+// 24 HOURS TRIAL LIST
+export const trialList = [
+  { icon: <Unlimited />, title: "Unlimited location searches" },
+  { icon: <Track />, title: "Track up to 5 phones" },
+  { icon: <Multiple />, title: "Multiple ways to locate a phone" },
+  { icon: <Protect />, title: "Protect your family" },
+  { icon: <Money />, title: "14 day money back guarantee" },
+  { icon: <Private />, title: "Private & confidential" },
 ];

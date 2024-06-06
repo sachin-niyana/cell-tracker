@@ -13,7 +13,7 @@ const Nav = () => {
     }
   }
   return (
-    <div className="my-container mx-auto">
+    <div className="my_container mx-auto">
       <nav className=" flex items-center justify-between pt-2 md:py-2.5">
         <Link className="relative z-50" href="/">
           <Logo />
