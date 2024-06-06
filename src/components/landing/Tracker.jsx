@@ -1,9 +1,21 @@
 import React from "react";
 import mobiletrack from "../../assets/images/landing/png/iphonelocation.png";
 import { trackerdata } from "../common/Helper";
+import vector1 from '../../assets/images/landing/png/vector1.png';
+import vector from '../../assets/images/landing/png/vector2.png';
+
 const Tracker = () => {
   return (
-    <>
+    <div className=" relative">
+      <span className=" absolute right-0 lg:bottom-[2%] md:bottom-[-12%] bottom-[2%] hidden md:block">
+        <img className="md:w-[106px] w-[41px] md:h-[113px] h-[44px]" src={vector1} alt="vector2" />
+      </span>
+      <span className=' absolute left-0 bottom-[-9%] md:hidden block'>
+        <img className=' md:w-[106px] w-[41px] md:h-[113px] h-[44px]' src={vector} alt="vector" />
+      </span>
+      <span className=' absolute left-0 top-[-2%] '>
+        <img className=' md:w-[106px] w-[41px] md:h-[113px] h-[44px]' src={vector} alt="vector" />
+      </span>
       <div className="xl:mt-[132px] mt-24">
         <div className=" max-w-[1140px] mx-auto min-[1154px]:px-3 px-5">
           <h2 className="text-2xxl sm:text-4xl lg:text-5xl font-light text-dark-blue leading-[32.8px] sm:leading-10 lg:leading-[48px] text-center">
@@ -54,7 +66,7 @@ const Tracker = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

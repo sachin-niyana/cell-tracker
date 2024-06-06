@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { BottomArrow, Flag, Headphone, TopRightArrow } from "./Icons";
 import iphone from "../../assets/images/home/webp/iphone.webp";
 import herobottom from "../../assets/images/background/png/hero-bottom-img.png";
 import Nav from "./Nav";
+import { BottomArrow, Flag, Headphone, TopRightArrow } from "./Icons";
 const Header = () => {
   return (
     <div className="bg-hero-bg pb-16 w-full object-cover bg-center bg-cover relative">
@@ -12,7 +12,7 @@ const Header = () => {
         src={herobottom}
         alt="herobottom"
       />
-      <div className="my-container mx-auto">
+      <div className="my-container mx-auto sm:pt-[63px] pt-[56px]">
         <div className="flex sm:flex-row flex-col sm:gap-12 gap-8 justify-center items-center">
           <div className="flex flex-col">
             <h1 className="max-w-[520px] sm:text-start text-center leading-[100%] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
@@ -25,7 +25,7 @@ const Header = () => {
             </p>
             <div className="bg-white sm:mx-0 mx-auto rounded ps-2.5 max-w-[448px] sm:mt-4 mt-8">
               <div className="flex justify-start items-center gap-2">
-                <Flag />
+                <Flag/>
                 <div className="flex justify-start items-center gap-1">
                   <p className="text-black text-base font-normal" value="in">
                     +91
