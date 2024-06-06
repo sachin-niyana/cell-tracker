@@ -21,7 +21,7 @@ const Footer = () => {
           alt="vector"
         />
       </span>
-      <div className="my_container mx-auto sm:pt-12 pt-[152px] md:pt-24 overflow-hidden">
+      <div className="my_container mx-auto overflow-hidden">
         <div className="flex flex-wrap flex-row items-center pb-14 md:pb-12">
           <div className="w-full md:w-1/3 flex justify-center md:justify-start">
             <img

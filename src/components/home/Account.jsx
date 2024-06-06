@@ -48,7 +48,7 @@ const Account = () => {
                 the payment page. Create an account to start a 24 hour trial
                 with full access to all our tools. The service can be cancelled
                 by the user at any time from within their account.{" "}
-                <span className="text-secondary">View full terms.</span>
+                <span className="text-sky">View full terms.</span>
               </p>
             </div>
           </div>

@@ -5,7 +5,7 @@ import herobottom from "../../assets/images/background/webp/hero-bottom-img.webp
 import Nav from "./Nav";
 const Header = () => {
   return (
-    <div className="bg-hero pb-16 w-full object-cover bg-center bg-cover relative">
+    <div className="bg-hero sm:pb-20 pb-10 w-full object-cover bg-center bg-cover relative">
       <Nav />
       <img
         className="absolute bottom-[-1px]"

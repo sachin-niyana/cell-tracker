@@ -12,7 +12,7 @@ const HowWorks = () => {
           Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
           elit rhoncus vestibulum fames libero id.
         </p>
-        <div className=" flex flex-wrap flex-row -mx-3 pt-[60px] lg:pt-[90px] xl:pt-[108px] items-center justify-center">
+        <div className=" flex flex-wrap flex-row -mx-3 pt-[60px] lg:pt-[90px] xl:pt-[88px] items-center justify-center">
           <div className=" lg:w-6/12 md:w-10/12 w-full px-3 relative">
             <div className=" items-center flex flex-col justify-center min-[1328px]:-translate-x-[70px] min-[1328px]:w-[680px]">
               <div className=" bg-skygradient bg_works_ellipse max-lg:w-full w-[302px] min-h-[334px] h-full lg:w-[450px] xl:w-[577.99px] xl:h-[577.95px] absolute"></div>
@@ -20,13 +20,13 @@ const HowWorks = () => {
               <img src={mobileimg} alt="img" className="!w-[680px] relative" />
             </div>
           </div>
-          <div className="lg:w-6/12 w-full flex flex-col justify-center items-center pt-14 lg:pt-0">
+          <div className="lg:w-6/12 w-full flex flex-col justify-center items-center pt-20 sm:pt-14 lg:pt-0">
             {locatedata.map((obj, index) => {
               return (
                 <div
                   className={`${
                     index == 1 ? "mt-[18px]" : ""
-                  } flex w-full max-w-[536px] shadow-[0px_16px_25.3px_0px_#00000014] flex-col items-start border border-black border-opacity-[8%] rounded-xl p-[20px_20px_13px_20px] min-h-[273px]`}
+                  } flex w-full max-w-[536px] shadow-workCard flex-col items-start border border-black border-opacity-[8%] rounded-xl  px-5 pb-[13px] pt-5 min-h-[273px]`}
                 >
                   <a href="/" className=" max-sm:max-w-[38px] max-sm:h-[33px]">
                     {obj.img}
@@ -34,7 +34,7 @@ const HowWorks = () => {
                   <p
                     className={`${
                       index == 1 ? "mt-2" : ""
-                    } text-xl sm:text-2xl text-dark-blue mt-[15px] pb-[6px] font-normal leading-[28.8px]`}
+                    } text-xl sm:text-2xl text-dark-blue mt-[15px] pb-[6px] font-normal leading-normal`}
                   >
                     {obj.title}
                   </p>

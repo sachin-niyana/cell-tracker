@@ -3,7 +3,7 @@ import { advantages } from "../common/Helper";
 
 const Advantage = () => {
   return (
-    <div className="my_container mx-auto pt-[18px]">
+    <div className="my_container mx-auto sm:pt-[18px] pt-16">
       <h2 className="font-light text-[28px] sm:text-[32px] md:text-[40px] lg:text-[48px] leading-[32.48px] sm:leading-[38px] md:leading-[42px] lg:leading-[48px] text-dark-blue text-center">
         Advantages of <span className="font-extrabold">Celltracker</span>
       </h2>
@@ -11,7 +11,7 @@ const Advantage = () => {
         Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
         elit rhoncus vestibulum fames libero id.
       </p>
-      <div className="flex flex-row flex-wrap sm:-mx-3 mt-6 lg:mt-[50px] justify-center">
+      <div className="flex flex-row flex-wrap sm:-mx-3 mt-6 lg:mt-[26px] justify-center">
         {advantages.map((advantage, index) => (
           <div
             key={index}
@@ -35,7 +35,7 @@ const Advantage = () => {
           </div>
         ))}
       </div>
-      <button className="  p-[16px_28px] rounded bg-dark-blue font-semibold text-base leading-[26.59px] text-white flex sm:block justify-center sm:max-w-[197px] mt-[42px] lg:mt-[73px] mx-auto">
+      <button className="py-4 px-7 w-full rounded bg-dark-blue font-semibold text-base leading-[26.59px] text-white flex sm:block justify-center sm:max-w-[197px] mt-[42px] lg:mt-[73px] mx-auto">
         Create your Account
       </button>
     </div>

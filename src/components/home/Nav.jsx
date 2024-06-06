@@ -18,11 +18,11 @@ const Nav = () => {
   }
   return (
     <div className="my_container mx-auto">
-      <nav className=" flex items-center justify-between sm:pt-2 pt-8 ">
+      <nav className=" flex items-center justify-between md:pt-2 pt-8 ">
         <Link className="relative z-50" href="/">
           {navBar ? (
             <img
-              className=" sm:w-[249px] w-[98px] sm:h-[36px] h-[13px]"
+              className=" md:w-[249px] w-[98px] md:h-[36px] h-[13px] mt-3"
               src={logo2}
               alt="logo2"
             />
@@ -33,7 +33,7 @@ const Nav = () => {
         <ul
           className={`${
             navBar ? "right-0" : "right-[100%] "
-          } flex gap-3.5 md:gap-6 max-[1023px]:w-full h-full fixed  bg-white top-0 items-center pt-[120px] md:pt-0 md:h-unset md:static md:bg-transparent md:justify-end flex-col md:flex-row z-40 transition-all ease-linear duration-300 `}
+          } flex gap-5 md:gap-6 max-[1023px]:w-full h-full fixed  bg-white top-0 items-center pt-[120px] md:pt-0 md:h-unset md:static md:bg-transparent md:justify-end flex-col md:flex-row z-40 transition-all ease-linear duration-300 `}
         >
           <li className="flex items-center gap-1.5">
             <span>
@@ -42,19 +42,23 @@ const Nav = () => {
             <Link
               onClick={closeNav}
               className="md:text-white text-black duration-500 text-base leading-[160%] font-normal"
-              href="#home"
+              to="/landing"
             >
               Quick Help
             </Link>
           </li>
 
           <li>
-            <button className=" mt-[32px] md:hidden max-w-[315px] bg-dark-blue text-sm leading-[23px] bg-darkBlue font-semibold text-white py-[14px] px-7 rounded-[4px] hover:text-dark-blue hover:bg-darkBlue duration-300  border-transparent border-2 w-full hover:border-darkBlue ">
+            <Link
+              onClick={closeNav}
+              className="md:text-white text-black duration-500 text-base leading-[160%] font-normal"
+              href="#home"
+            >
               Log In
-            </button>
+            </Link>
           </li>
           <li className=" pt-[115px] md:pt-0 max-w-[314px] md:max-w-[182px] md:w-auto w-full ">
-            <button className="bg-dark-blue w-full  py-4 px-6 rounded text-base leading-[166%] font-semibold text-white">
+            <button className="bg-dark-blue w-full py-4 px-6 rounded text-base leading-[166%] font-semibold text-white">
               Create an Account
             </button>
           </li>

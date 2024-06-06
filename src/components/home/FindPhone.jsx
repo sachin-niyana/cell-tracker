@@ -12,7 +12,7 @@ const FindPhone = () => {
         <span data-aos="zoom-in">
           <span className="absolute w-full top-[-135px] left-[50%] -translate-x-1/2 md:translate-x-0 md:top-auto md:bottom-[-80px] lg:bottom-[-130px] md:left-10 max-w-[375px] lg:max-w-[500px] xl:max-w-[606.73px]">
             <img
-              className="w-full min-h-[414px] md:min-h-[419px] lg:min-h-[552px] xl:min-h-[700px]"
+              className="w-full min-h-[414px] md:min-h-[419px] lg:min-h-[552px] xl:min-h-[670px]"
               src={findPhone}
               alt="findphone"
             />
