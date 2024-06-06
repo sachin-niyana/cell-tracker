@@ -3,7 +3,7 @@ import { advantages } from "../common/Helper";
 
 const Advantage = () => {
   return (
-    <div className="my-container mx-auto pt-[18px]">
+    <div className="my_container mx-auto pt-[18px]">
       <h2 className="font-light text-[28px] sm:text-[32px] md:text-[40px] lg:text-[48px] leading-[32.48px] sm:leading-[38px] md:leading-[42px] lg:leading-[48px] text-dark-blue text-center">
         Advantages of <span className="font-extrabold">Celltracker</span>
       </h2>

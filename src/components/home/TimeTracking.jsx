@@ -1,5 +1,5 @@
 import React from "react";
-import bottom from "../../assets/images/background/png/hero-bottom-img.png";
+import bottom from "../../assets/images/background/webp/hero-bottom-img.webp";
 import { Checked } from "../common/Icons";
 const TimeTracking = () => {
   return (

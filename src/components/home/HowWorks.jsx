@@ -15,8 +15,8 @@ const HowWorks = () => {
         <div className=" flex flex-wrap flex-row -mx-3 pt-[60px] lg:pt-[90px] xl:pt-[108px] items-center justify-center">
           <div className=" lg:w-6/12 md:w-10/12 w-full px-3 relative">
             <div className=" items-center flex flex-col justify-center min-[1328px]:-translate-x-[70px] min-[1328px]:w-[680px]">
-              <div className=" bg-skygradient bg-works-ellipse max-lg:w-full w-[302px] min-h-[334px] h-full lg:w-[450px] xl:w-[577.99px] xl:h-[577.95px] absolute"></div>
-              <div className=" bg-skygradient bg-works-ellipse2 max-lg:w-full w-[284px] min-h-[295px] h-full lg:w-[400px] xl:w-[569px] xl:h-[490px] absolute"></div>
+              <div className=" bg-skygradient bg_works_ellipse max-lg:w-full w-[302px] min-h-[334px] h-full lg:w-[450px] xl:w-[577.99px] xl:h-[577.95px] absolute"></div>
+              <div className=" bg-skygradient bg_works_ellipse2 max-lg:w-full w-[284px] min-h-[295px] h-full lg:w-[400px] xl:w-[569px] xl:h-[490px] absolute"></div>
               <img src={mobileimg} alt="img" className="!w-[680px] relative" />
             </div>
           </div>

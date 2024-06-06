@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import iphone from "../../assets/images/home/webp/iphone.webp";
-import herobottom from "../../assets/images/background/png/hero-bottom-img.png";
+import React from "react";
 import { BottomArrow, Flag, Headphone, TopRightArrow } from "../common/Icons";
-import Nav from "../common/Nav";
+import iphone from "../../assets/images/home/webp/iphone.webp";
+import herobottom from "../../assets/images/background/webp/hero-bottom-img.webp";
+import Nav from "./Nav";
 const Header = () => {
   return (
     <div className="bg-hero pb-16 w-full object-cover bg-center bg-cover relative">
@@ -12,20 +12,20 @@ const Header = () => {
         src={herobottom}
         alt="herobottom"
       />
-      <div className="my-container mx-auto sm:pt-[63px] pt-[56px]">
+      <div className="my_container mx-auto sm:pt-[63px] pt-[56px]">
         <div className="flex sm:flex-row flex-col sm:gap-12 gap-8 justify-center items-center">
           <div className="flex flex-col">
             <h1 className="max-w-[520px] sm:text-start text-center leading-[100%] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
               Find the location{" "}
               <span className="font-light">of any phone by its number</span>
             </h1>
-            <p className="text-white font-normal text-base max-w-[520px] sm:text-start text-center sm:pt-2 pt-3">
+            <p className="text-white font-normal sm:text-base text-sm max-w-[520px] sm:text-start text-center sm:pt-2 pt-3">
               Add phones to your account & track them when neededAdd phones to
               your account & track them when needed
             </p>
             <div className="bg-white sm:mx-0 mx-auto rounded ps-2.5 max-w-[448px] sm:mt-4 mt-8">
               <div className="flex justify-start items-center gap-2">
-                <Flag/>
+                <Flag />
                 <div className="flex justify-start items-center gap-1">
                   <p className="text-black text-base font-normal" value="in">
                     +91
