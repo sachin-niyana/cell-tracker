@@ -17,7 +17,7 @@ const MyNavbar = () => {
   }
   return (
     <div className="my_container mx-auto bg-transparent">
-      <div className="max-w-[1164px] px-6 sm:px-3 mx-auto pt-[27px]">
+      <div className=" md:pt-7 pt-8 md:pb-5 ">
         <div className="flex justify-between items-center">
           <a href="/" className="relative z-[13]" aria-label="logo">
             {navBar ? (
@@ -61,18 +61,18 @@ const MyNavbar = () => {
                 Features{" "}
               </a>
             </li>
-            <button className=" mt-[32px] md:hidden max-w-[315px] bg-dark-blue text-sm leading-[23px] bg-darkBlue font-semibold text-white py-[14px] px-7 rounded-[4px] hover:text-dark-blue hover:bg-darkBlue duration-300  border-transparent border-2 w-full hover:border-darkBlue ">
+            <button className=" mt-[32px] md:hidden max-w-[315px] bg-dark-blue text-sm leading-[23px] bg-dark-blue font-semibold text-white py-[14px] px-7 rounded-[4px] hover:text-dark-blue hover:bg-dark-blue duration-300  border-transparent border-2 w-full hover:border-dark-blue ">
               Log In
             </button>
           </ul>
-          <button className=" text-darkBlue max-md:hidden text-base leading-7 font-semibold bg-white py-[14px] md:py-4 px-7 rounded-[4px] hover:bg-darkBlue hover:text-white duration-300">
+          <button className=" text-dark-blue max-md:hidden text-base leading-7 font-semibold bg-white py-[14px] md:py-4 px-7 rounded-[4px] hover:bg-dark-blue hover:text-white duration-300">
             Log In
           </button>
           <div className="md:hidden" onClick={showNav}>
             {navBar ? (
               <div className="flex md:hidden flex-col relative z-50 justify-between w-[18px] h-[17px] cursor-pointer">
                 <span className="bg-black w-[15px] h-[1.5px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 translate-y-0 -bottom-[11px]"></span>
-                <span className="bg-black w-[15px] h-[1.5px] relative z-50  transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-1 bottom-[8px]"></span>
+                <span className="bg-black w-[15px] h-[1.5px] relative z-50 transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-[3.1px] bottom-[8px]"></span>
               </div>
             ) : (
               <div className="flex md:hidden flex-col z-50 justify-between w-[24px] h-[24px] cursor-pointer relative">

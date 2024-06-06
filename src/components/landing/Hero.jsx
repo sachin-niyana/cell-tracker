@@ -1,5 +1,6 @@
 import React from "react";
 import headerelips from "../../assets/images/background/png/bottom-elips.png";
+import mobilelips from "../../assets/images/background/png/mobile-bottom-elips.png";
 import iphone from "../../assets/images/landing/webp/header-iphone.webp";
 import {
   BottomArrow,
@@ -14,11 +15,16 @@ const Hero = () => {
     <div className="bg-hero pb-16 w-full object-cover bg-center bg-cover relative">
       <MyNavbar />
       <img
-        className="absolute bottom-[-1px]"
+        className="absolute sm:block hidden bottom-[-1px]"
         src={headerelips}
         alt="herobottom"
       />
-      <div className="my_container mx-auto relative">
+      <img
+        className="absolute sm:hidden block bottom-[-1px]"
+        src={mobilelips}
+        alt="mobilelips"
+      />
+      <div className="my_container mx-auto relative md:pt-[83px] pt-[56px] pb-5">
         <div className="flex sm:flex-row flex-col sm:gap-0 gap-16 justify-center items-center">
           <div className="flex flex-col">
             <h1 className="max-w-[520px] sm:text-start text-center leading-[100%] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">

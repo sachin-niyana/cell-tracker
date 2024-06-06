@@ -1046,6 +1046,7 @@ export const Dotedline = () => {
 export const LeftVector = () => {
   return (
     <svg
+      className="lg:w-[106px] sm:w-75px] w-41px] h-[44px] sm:h-[80px] lg:h-[113px]"
       width="106"
       height="113"
       viewBox="0 0 106 113"
@@ -1063,6 +1064,7 @@ export const LeftVector = () => {
 export const RightVector = () => {
   return (
     <svg
+      className="lg:w-[106px] sm:w-75px] w-41px] h-[44px] sm:h-[80px] lg:h-[113px]"
       width="106"
       height="113"
       viewBox="0 0 106 113"
@@ -1472,6 +1474,7 @@ export const Linkedin = () => {
   return (
     <a href="https://in.linkedin.com/" target="_blank">
       <svg
+        className="sm:w-10 sm:h-10 w-7 h-7"
         width="40"
         height="40"
         viewBox="0 0 40 40"
@@ -1498,6 +1501,7 @@ export const Insta = () => {
   return (
     <a href="https://www.instagram.com/" target=" _blank">
       <svg
+        className="sm:w-10 sm:h-10 w-7 h-7"
         width="40"
         height="40"
         viewBox="0 0 40 40"
@@ -1524,6 +1528,7 @@ export const Facebook = () => {
   return (
     <a href="https://www.facebook.com/" target="_blank">
       <svg
+        className="sm:w-10 sm:h-10 w-7 h-7"
         width="40"
         height="40"
         viewBox="0 0 40 40"
@@ -1550,6 +1555,7 @@ export const Twiter = () => {
   return (
     <a href="https://x.com/?lang=en" target=" _blank">
       <svg
+        className="sm:w-10 sm:h-10 w-7 h-7"
         width="40"
         height="40"
         viewBox="0 0 40 40"
