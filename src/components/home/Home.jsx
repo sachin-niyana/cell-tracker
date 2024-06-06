@@ -5,6 +5,7 @@ import HowWorks from "./HowWorks";
 import TimeTracking from "./TimeTracking";
 import FindPhone from "./FindPhone";
 import Account from "./Account";
+import Footer from "../common/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <TimeTracking />
       <Account />
       <FindPhone />
+      <Footer />
     </>
   );
 };

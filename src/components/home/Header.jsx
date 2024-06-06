@@ -2,7 +2,7 @@ import React from "react";
 import { BottomArrow, Flag, Headphone, TopRightArrow } from "../common/Icons";
 import iphone from "../../assets/images/home/webp/iphone.webp";
 import herobottom from "../../assets/images/background/webp/hero-bottom-img.webp";
-import Nav from "../common/Nav";
+import Nav from "./Nav";
 const Header = () => {
   return (
     <div className="bg-hero pb-16 w-full object-cover bg-center bg-cover relative">
@@ -12,7 +12,7 @@ const Header = () => {
         src={herobottom}
         alt="herobottom"
       />
-      <div className="my_container mx-auto">
+      <div className="my_container mx-auto sm:pt-[63px] pt-[56px]">
         <div className="flex sm:flex-row flex-col sm:gap-12 gap-8 justify-center items-center">
           <div className="flex flex-col">
             <h1 className="max-w-[520px] sm:text-start text-center leading-[100%] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">

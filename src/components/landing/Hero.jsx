@@ -1,7 +1,6 @@
 import React from "react";
-import iphone from "../../assets/images/landing/webp/header-iphone.webp";
 import headerelips from "../../assets/images/background/png/bottom-elips.png";
-import Nav from "../common/Nav";
+import iphone from "../../assets/images/landing/webp/header-iphone.webp";
 import {
   BottomArrow,
   Flag,
@@ -9,10 +8,11 @@ import {
   LeftVector,
   TopRightArrow,
 } from "../common/Icons";
+import MyNavbar from "./MyNavbar";
 const Hero = () => {
   return (
     <div className="bg-hero pb-16 w-full object-cover bg-center bg-cover relative">
-      <Nav />
+      <MyNavbar />
       <img
         className="absolute bottom-[-1px]"
         src={headerelips}
