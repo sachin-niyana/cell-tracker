@@ -38,7 +38,7 @@ const Header = () => {
                     className="w-full my-3.5 h-7 outline-none leading-[166%] text-black text-base font-normal"
                     type="number"
                   />
-                  <button className="bg-dark-blue h-full py-4 px-6 rounded text-base font-semibold text-white flex items-center gap-1">
+                  <button className="bg-dark-blue h-full py-4 px-6 rounded text-base font-semibold hover:scale-[1.1] hover:duration-300 duration-300 text-white flex items-center gap-1 ">
                     <span>
                       <TopRightArrow />
                     </span>
@@ -59,7 +59,7 @@ const Header = () => {
               <p className="font-normal lg:text-base text-sm text-dark-blue max-w-[198px] leading-normal sm:pb-3.5 pb-3">
                 Get help with technical, account and billing enquiries.
               </p>
-              <button className="py-3.5 rounded bg-dark-blue text-white font-semibold lg:text-base text-sm w-full">
+              <button className="py-3.5 rounded bg-dark-blue text-white font-semibold lg:text-base text-sm w-full hover:scale-[1.0] hover:duration-300 h-[59px]  hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 ">
                 Customer Support
               </button>
             </div>

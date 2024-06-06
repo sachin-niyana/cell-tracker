@@ -52,7 +52,7 @@ const TimeTracking = () => {
               </p>
             </div>
             <div className="mt-[27px] md:max-w-[192px] w-full">
-              <button className="bg-dark-blue w-full h-full py-4 px-6 rounded text-base font-semibold text-white">
+              <button className="bg-dark-blue w-[189px] h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
                 Start your free trial
               </button>
             </div>
@@ -61,9 +61,9 @@ const TimeTracking = () => {
             data-aos="fade-left"
             className="bg-white border-[#03045E33] shadow-light w-full max-w-[527px] px-6 pt-[60px] pb-[30px] md:p-[34px] md:pt-[63px] rounded-tl-xl rounded-br-xl md:rounded-r-xl md:rounded-t-xl relative md:ml-[-10px]"
           >
-            <label className="absolute top-[-8%] right-1/2 translate-x-1/2 md:translate-x-0 lg:right-[-7%] md:right-[-5%] xl:right-[-9%] max-w-[157px] sm:max-w-[182px] md:max-w-[204px] w-full bg-dark-blue sm:py-4 py-3 sm:px-[35px] ps-6 pe-5 rounded text-xl md:text-2xl text-white font-normal leading-[166%]">
+            <div className="absolute top-[-8%] right-1/2 translate-x-1/2 md:translate-x-0 lg:right-[-7%] md:right-[-5%] xl:right-[-9%] max-w-[157px] sm:max-w-[182px] md:max-w-[204px] w-full bg-dark-blue sm:py-4 py-3 sm:px-[35px] ps-6 pe-5 rounded text-xl md:text-2xl text-white font-normal leading-[166%]">
               Most Popular
-            </label>
+            </div>
             <h3 className="text-dark-blue font-normal text-2xl md:text-3xxl leading-[120%] mb-[18px]">
               Cell Tracker <span className="text-sky font-extrabold">Pro</span>
             </h3>
@@ -92,7 +92,7 @@ const TimeTracking = () => {
             </div>
             <div className="flex xl:items-center mt-7 gap-2 sm:gap-4 flex-col xl:flex-row">
               <div className="md:max-w-[192px] w-full">
-                <button className="bg-dark-blue w-full h-full py-4 px-6 rounded text-base font-semibold text-white">
+                <button className="bg-dark-blue w-[168px] h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
                   30-Day Free Trial
                 </button>
               </div>

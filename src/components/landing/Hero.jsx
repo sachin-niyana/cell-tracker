@@ -15,7 +15,7 @@ const Hero = () => {
     <div className="bg-hero pb-16 w-full object-cover bg-center bg-cover relative">
       <MyNavbar />
       <img
-        className="absolute sm:block hidden bottom-[-1px]"
+        className="absolute sm:block hidden bottom-[-1px] max-h-[600px] w-full"
         src={headerelips}
         alt="herobottom"
       />
@@ -51,7 +51,7 @@ const Hero = () => {
                     className="w-full my-3.5 h-7 outline-none leading-[166%] text-black text-base font-normal"
                     type="number"
                   />
-                  <button className="bg-dark-blue h-full py-4 px-6 rounded text-base font-semibold text-white flex items-center gap-1">
+                  <button className="bg-dark-blue h-full py-4 px-6 rounded text-base hover:scale-[1.1] hover:duration-300 duration-300 font-semibold text-white flex items-center gap-1 ">
                     <span>
                       <TopRightArrow />
                     </span>

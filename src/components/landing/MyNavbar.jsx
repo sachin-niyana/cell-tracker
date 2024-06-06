@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Logo, Mobilelogo } from "../common/Icons";
 import logo2 from "../../assets/images/landing/png/phnlogo.png";
+import { Link } from "react-router-dom";
 
 const MyNavbar = () => {
   const [navBar, setnavBar] = useState(false);
@@ -32,40 +33,40 @@ const MyNavbar = () => {
             }`}
           >
             <li>
-              <a
+              <Link
                 onClick={closeNav}
-                href="#"
+                to="/"
                 className="text-black md:text-white  text-base leading-[26.59px] font-normal relative z-[1] after:w-0 after:bg-white after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
               >
                 {" "}
                 Home{" "}
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 onClick={closeNav}
                 href="#"
                 className="text-black md:text-white  text-base leading-[26.59px] font-normal relative z-[1] after:w-0 after:bg-white after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
               >
                 {" "}
                 How It Works{" "}
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 onClick={closeNav}
                 href="#"
                 className="text-black md:text-white  text-base leading-[26.59px] font-normal relative z-[1] after:w-0 after:bg-white after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
               >
                 {" "}
                 Features{" "}
-              </a>
+              </Link>
             </li>
-            <button className=" mt-[32px] md:hidden max-w-[315px] hover:scale-50 text-sm leading-[23px] bg-dark-blue font-semibold text-white py-[14px] px-7 rounded-[4px]  duration-300  border-transparent border-2 w-full  ">
+            <button className=" mt-[32px] md:hidden max-w-[315px] hover:scale-[1.1] hover:duration-300 text-sm leading-[23px] bg-dark-blue font-semibold text-white py-[14px] px-7 rounded-[4px]  duration-300  border-transparent border-2 w-full  ">
               Log In
             </button>
           </ul>
-          <button className=" text-dark-blue max-md:hidden text-base leading-7 font-semibold bg-white py-[14px] md:py-4 px-7 rounded-[4px] duration-300">
+          <button className=" text-dark-blue max-md:hidden hover:scale-[1.1] hover:duration-300 text-base leading-7 font-semibold bg-white py-[14px] md:py-4 px-7 rounded-[4px] duration-300">
             Log In
           </button>
           <div className="md:hidden" onClick={showNav}>

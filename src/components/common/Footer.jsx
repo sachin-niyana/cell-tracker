@@ -22,12 +22,12 @@ const Footer = () => {
           alt="vector"
         />
       </span>
-      <div className="my_container mx-auto overflow-hidden">
+      <div className="my_container mx-auto overflow-x">
         <div className="flex flex-wrap flex-row items-center pb-14 md:pb-12">
           <div className="w-full md:w-1/3 flex justify-center md:justify-start">
             <span>
               <img
-                className=" sm:w-[249] w-[211px] sm:h-[30px] h-[29px]"
+                className=" sm:w-[249] w-[211px] sm:h-[30px] h-[29px] cursor-pointer"
                 src={footerlogo}
                 alt="footerlogo"
               />
@@ -38,7 +38,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/home"
-                  className="font-normal sm:text-base text-sm text-black opacity-[70%]"
+                  className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   Home
                 </a>
@@ -46,7 +46,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/how-it-works"
-                  className="font-normal sm:text-base text-sm text-black opacity-[70%]"
+                  className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   How It Works
                 </a>
@@ -54,7 +54,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/features"
-                  className="font-normal sm:text-base text-sm text-black opacity-[70%]"
+                  className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   Features
                 </a>
