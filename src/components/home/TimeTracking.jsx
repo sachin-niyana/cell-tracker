@@ -10,7 +10,7 @@ const TimeTracking = () => {
         alt="wave"
       />
       <img
-        className="absolute bottom-[-1px] left-0 w-full"
+        className="absolute xl:h-[161px] bottom-[-1px] left-0 w-full"
         src={bottom}
         alt="wave"
       />

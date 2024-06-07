@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Logo, Mobilelogo } from "../common/Icons";
-import logo2 from "../../assets/images/landing/png/phnlogo.png";
 import { Link } from "react-router-dom";
+import logo2 from "../../assets/images/landing/png/phnlogo.png";
+import { Logo } from "../common/Icons";
 
 const MyNavbar = () => {
   const [navBar, setnavBar] = useState(false);
@@ -22,7 +22,11 @@ const MyNavbar = () => {
         <div className="flex justify-between items-center">
           <a href="/" className="relative z-[13]" aria-label="logo">
             {navBar ? (
-              <img className=" w-[102px] h-[17px] mt-4" src={logo2} alt="logo2" />
+              <img
+                className=" w-[102px] h-[17px] mt-4"
+                src={logo2}
+                alt="logo2"
+              />
             ) : (
               <Logo className="w-[98px] h-[13px]" />
             )}
@@ -66,8 +70,11 @@ const MyNavbar = () => {
               Log In
             </button>
           </ul>
-          <button className=" text-dark-blue max-md:hidden hover:scale-[1.1] hover:duration-300 text-base leading-7 font-semibold bg-white py-[14px] md:py-4 px-7 rounded-[4px] duration-300">
-            Log In
+          <button className="md:block hidden bg-white w-full sm:py-4 py-3.5 px-7 rounded text-base font-semibold text-dark-blue hover:scale-[1.0] hover:duration-300   hover:text-white after:-z-20 after:absolute after:h-1 after:w-1 after:bg-dark-blue after:-left-2 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+            Log in
+          </button>
+          <button className="md:hidden block sm:py-4 py-3.5 px-7 w-full rounded bg-dark-blue font-semibold sm:text-base text-sm leading-[166%] text-white sm:block justify-center sm:max-w-[197px]  mx-auto hover:scale-[1.0] hover:duration-300 hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+            Log in
           </button>
           <div className="md:hidden" onClick={showNav}>
             {navBar ? (

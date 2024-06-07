@@ -32,10 +32,10 @@ const Advantage = () => {
               >
                 <div className="lg:max-w-[271px] mx-auto md:mx-0 h-full min-h-[184px] sm:min-h-[253px] p-5 border hover:border border-solid hover:border-dark-blue duration-300 border-dark-blue border-opacity-10  rounded-[11px]">
                   <span>{advantage.icon}</span>
-                  <p className="font-normal text-[24px] leading-[28.8px] text-dark-blue mt-1">
+                  <p className="font-normal dm:text-2xl text-xl leading-[28.8px] text-dark-blue mt-1">
                     {advantage.title}
                   </p>
-                  <p className="text-base leading-6 font-normal text-black opacity-70 mt-[6px]">
+                  <p className="sm:text-base text-sm leading-6 font-normal text-black opacity-70 mt-[6px]">
                     {advantage.description}
                   </p>
                 </div>
@@ -43,7 +43,7 @@ const Advantage = () => {
             </div>
           ))}
         </div>
-        <button className="py-4 px-7 w-full rounded bg-dark-blue font-semibold text-base leading-[26.59px] text-white flex sm:block justify-center sm:max-w-[197px] mt-[42px] lg:mt-[73px] mx-auto hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+        <button className="sm:py-4 py-3.5 px-7 w-full rounded bg-dark-blue font-semibold sm:text-base text-sm leading-[166%] text-white flex sm:block justify-center sm:max-w-[197px] mt-[42px] lg:mt-[73px] mx-auto hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
           Create your Account
         </button>
       </div>

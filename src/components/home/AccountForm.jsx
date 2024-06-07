@@ -122,6 +122,7 @@ const AccountForm = () => {
             </span>
           </div>
           <input
+            type="number"
             id="cardNumber"
             className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-[#FAFAFA] px-[14px] remove_input_number_arrow"
             placeholder="Valid Card Number"
@@ -147,6 +148,7 @@ const AccountForm = () => {
                 </span>
               </div>
               <input
+                type="number"
                 id="expiryDate"
                 className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-light-gray px-[14px] remove_input_number_arrow"
                 placeholder="MM/YY"
@@ -172,6 +174,7 @@ const AccountForm = () => {
                 </span>
               </div>
               <input
+                type="number"
                 id="securityCode"
                 className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-[#FAFAFA] px-[14px] remove_input_number_arrow"
                 placeholder="E.x @ 0123"

@@ -27,23 +27,42 @@ const Header = () => {
               <div className="flex justify-start items-center gap-2">
                 <Flag />
                 <div className="flex justify-start items-center gap-1">
-                  <p className="text-black text-base font-normal" value="in">
-                    +91
-                  </p>
-                  <BottomArrow />
+                  <select
+                    class="outline-none text-sm leading-[23px] md:leading-[26px] md:text-base text-black font-normal"
+                    name="number"
+                    id="number"
+                  >
+                    <option value="91" class="flex items-center gap-2">
+                      +91
+                    </option>
+                    <option value="01" class="flex items-center gap-2">
+                      +01
+                    </option>
+                    <option value="61" class="flex items-center gap-2">
+                      +61
+                    </option>
+                    <option value="02" class="flex items-center gap-2">
+                      +02
+                    </option>
+                    <option value="21" class="flex items-center gap-2">
+                      +04
+                    </option>
+                  </select>
                 </div>
                 <div className="w-full flex gap-2">
                   <input
                     required
-                    className="w-full my-3.5 h-7 outline-none leading-[166%] text-black text-base font-normal"
+                    className="w-full sm:my-3.5 my-[11px] h-7 outline-none leading-[166%] text-black text-base font-normal"
                     type="number"
                   />
-                  <button className="bg-dark-blue h-full py-4 px-6 rounded text-base font-semibold hover:scale-[1.1] hover:duration-300 duration-300 text-white flex items-center gap-1 ">
-                    <span>
+                  <div className="sm:py-4 py-3 px-6 w-full rounded bg-dark-blue text-white sm:block justify-center sm:max-w-[112px] max-w- mx-auto hover:scale-[1.0] hover:duration-300 hover:text-dark-blue after:-z-20 after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+                    <div className="flex items-center gap-1">
                       <TopRightArrow />
-                    </span>
-                    Locate
-                  </button>
+                      <p className="font-semibold sm:text-base text-sm leading-[166%]">
+                        Locate
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -59,7 +78,7 @@ const Header = () => {
               <p className="font-normal lg:text-base text-sm text-dark-blue max-w-[198px] leading-normal sm:pb-3.5 pb-3">
                 Get help with technical, account and billing enquiries.
               </p>
-              <button className="py-3.5 rounded bg-dark-blue text-white font-semibold lg:text-base text-sm w-full hover:scale-[1.0] hover:duration-300 h-[59px]  hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 ">
+              <button className="sm:py-4 py-3.5 rounded leading-[166%] bg-dark-blue text-white font-semibold lg:text-base text-sm w-full hover:scale-[1.0] hover:duration-300 hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 ">
                 Customer Support
               </button>
             </div>

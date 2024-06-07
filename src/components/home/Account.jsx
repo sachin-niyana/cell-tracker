@@ -7,7 +7,7 @@ const Account = () => {
   return (
     <div className="relative my-container mx-auto" id="log-in">
       <div className="container max-w-[1188px] px-6 mx-auto pb-[124px] md:pb-[30px] lg:pb-[124px] pt-[54px] sm:pt-[60px] md:pt-[70px] lg:pt-[80px] xl:pt-[98px] relative z-20">
-        <h2 className="text-center text-dark-blue font-light text-[28px] md:text-3xl lg:text-4xl xl:text-5xl mb-[6px] sm:mb-2">
+        <h2 className="text-center leading-[120%] text-dark-blue font-light text-[28px] md:text-3xl lg:text-4xl xl:text-5xl mb-[6px] sm:mb-2">
           Create your <span className="font-extrabold">Account</span>
         </h2>
         <p className="text-center font-normal text-black text-opacity-70 text-sm sm:text-base leading-[150%] pb-[34px] sm:pb-10 md:pb-12 lg:pb-14 xl:pb-[72px]">
@@ -23,12 +23,12 @@ const Account = () => {
                 className="flex items-center gap-3 md:gap-2 mt-[18px] sm:mt-[11px] w-full"
                 key={index}
               >
-                <div className="sm:max-w-[48px] max-w-[38px] sm:max-h-[54px] max-h-[30px] bg-sky bg-opacity-20 w-full p-2 sm:p-3 h-full bg_works_ellipse flex items-center justify-center mb-1">
+                <div className="sm:max-w-[48px] max-w-[38px] sm:max-h-[54px] max-h-[30px] bg-[#ddf9ff] w-full p-2 sm:p-3 h-full bg_works_ellipse flex items-center justify-center mb-1">
                   <span className="max-w-[18px] sm:max-w-6 w-full">
                     {obj.icon}
                   </span>
                 </div>
-                <p className="font-normal text-sm sm:text-base leading-[150%]">
+                <p className="font-normal text-black text-opacity-70 text-sm sm:text-base leading-[150%]">
                   {obj.title}
                 </p>
               </div>
@@ -39,7 +39,7 @@ const Account = () => {
                 the payment page. Create an account to start a 24 hour trial
                 with full access to all our tools. The service can be cancelled
                 by the user at any time from within their account.{" "}
-                <span className="text-sky cursor-pointer">
+                <span className="text-sky cursor-pointer hover:underline duration-300">
                   View full terms.
                 </span>
               </p>

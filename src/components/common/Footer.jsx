@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Insta, Linkedin, Logo, Twiter } from "../common/Icons";
+import { Facebook, Insta, Linkedin, Twiter } from "../common/Icons";
 import vector from "../../assets/images/landing/png/vector2.png";
 import vector1 from "../../assets/images/landing/png/vector1.png";
 import footerlogo from "../../assets/images/landing/png/footerlogo.png";
