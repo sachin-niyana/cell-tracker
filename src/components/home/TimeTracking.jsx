@@ -52,7 +52,7 @@ const TimeTracking = () => {
               </p>
             </div>
             <div className="mt-[27px] md:max-w-[192px] w-full">
-              <button className="bg-dark-blue w-[189px] h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+              <button className="bg-dark-blue w-full lg:max-w-[189px] h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
                 Start your free trial
               </button>
             </div>
@@ -92,7 +92,7 @@ const TimeTracking = () => {
             </div>
             <div className="flex xl:items-center mt-7 gap-2 sm:gap-4 flex-col xl:flex-row">
               <div className="md:max-w-[192px] w-full">
-                <button className="bg-dark-blue w-[168px] h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+                <button className="bg-dark-blue w-full maw-w-[168px] h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
                   30-Day Free Trial
                 </button>
               </div>

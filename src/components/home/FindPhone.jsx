@@ -1,12 +1,15 @@
 import React from "react";
-import { LeftVector } from "../common/Icons";
+import {  RightVector, Vector } from "../common/Icons";
 import findPhone from "../../assets/images/home/png/find-phone.png";
 
 const FindPhone = () => {
   return (
     <div className="relative max-w-[2000px] mx-auto">
-      <span className="absolute left-0 max-w-[106px] top-[40%] hidden xl:block -translate-y-1/2">
-        <LeftVector />
+       <span className=" absolute left-0 top-[27%]">
+        <Vector/>
+      </span>
+       <span className=" absolute right-0 bottom-[-57%]">
+      <RightVector/>
       </span>
       <div className="my_container mx-auto mt-[124px] mb-[58px] sm:mb-16 lg:mb-[102px] relative">
         <span data-aos="zoom-in">
@@ -30,7 +33,7 @@ const FindPhone = () => {
               Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi
               sit elit rhoncus vestibulum fames libero id.
             </p>
-            <div className="sm:max-w-[129px] w-full">
+            <div className="sm:max-w-[129px] w-full flex justify-center md:justify-start overflow-hidden">
               <button className="bg-white h-[59px] py-4 px-7 rounded text-base font-semibold text-dark-blue hover:scale-[1.0] hover:duration-300   hover:text-white after:-z-20 after:absolute after:h-1 after:w-1 after:bg-dark-blue after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
                 Start Now
               </button>

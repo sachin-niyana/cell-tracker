@@ -1,11 +1,17 @@
 import React from "react";
 import mastercircle from "../../assets/images/home/png/master-circle.png";
 import { trialList } from "../common/Helper";
-import { Visa } from "../common/Icons";
+import { RightVector, Vector, Visa } from "../common/Icons";
 import AccountForm from "./AccountForm";
 const Account = () => {
   return (
     <div className="relative my-container mx-auto" id="log-in">
+      <span className=" absolute left-0 top-[9%]">
+        <Vector/>
+      </span>
+      <span className=" absolute right-0 z-10 sm:bottom-[-10%] bottom-[23%]">
+        <RightVector/>
+      </span>
       <div className="container max-w-[1188px] px-6 mx-auto pb-[124px] md:pb-[30px] lg:pb-[124px] pt-[54px] sm:pt-[60px] md:pt-[70px] lg:pt-[80px] xl:pt-[98px] relative z-20">
         <h2
           data-aos="fade-up"
