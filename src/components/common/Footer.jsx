@@ -6,6 +6,11 @@ import footerlogo from "../../assets/images/landing/png/footerlogo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  function getCurrentYear() {
+    const currentDate = new Date();
+    return currentDate.getFullYear();
+  }
+  const currentYear = getCurrentYear();
   return (
     <div className=" relative">
       <span className=" absolute left-0 top-[-120%] hidden md:block">
@@ -36,28 +41,28 @@ const Footer = () => {
           <div className="w-full md:w-1/3 flex justify-center md:mt-4 mt-9 lg:mt-0 ">
             <ul className="flex gap-6 items-center">
               <li>
-                <a
-                  href="/home"
+                <Link
+                  href="#home"
                   className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/how-it-works"
+                <Link
+                  href="#how-it-works"
                   className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   How It Works
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/features"
+                <Link
+                  href="#features"
                   className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   Features
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -96,7 +101,7 @@ const Footer = () => {
         </div>
         <hr className="max-w-[1188px] bg-dark-blue h-[1px] mx-auto " />
         <p className="font-normal text-sm text-black opacity-[70%] text-center py-4">
-          © 2024 Cell Tracker. All Rights Reserved.
+          © {currentYear} Cell Tracker. All Rights Reserved.
         </p>
       </div>
     </div>

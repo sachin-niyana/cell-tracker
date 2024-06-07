@@ -32,7 +32,7 @@ const Header = () => {
                   </p>
                   <BottomArrow />
                 </div>
-                <form className="w-full flex gap-2">
+                <div className="w-full flex gap-2">
                   <input
                     required
                     className="w-full my-3.5 h-7 outline-none leading-[166%] text-black text-base font-normal"
@@ -44,7 +44,7 @@ const Header = () => {
                     </span>
                     Locate
                   </button>
-                </form>
+                </div>
               </div>
             </div>
           </div>

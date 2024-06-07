@@ -5,7 +5,7 @@ import { RightVector, Vector } from "../common/Icons";
 const HowWorks = () => {
   return (
     <div className="xl:mt-[104px] lg:mt-[90px] md:mt-20 mt-[74px] mb-[72px] px-6">
-      <div className=" mx-auto max-w-[1240px] px-3">
+      <div className=" mx-auto max-w-[1240px] lg:px-3">
         <h2 className="font-light text-[28px] sm:text-[32px] md:text-[40px] lg:text-[48px] leading-[32.48px] sm:leading-[38px] md:leading-[42px] lg:leading-[48px] text-dark-blue text-center">
           How it <span className="font-extrabold">works</span>
         </h2>
@@ -25,13 +25,16 @@ const HowWorks = () => {
             {locatedata.map((obj, index) => {
               return (
                 <div
+                  key={index}
                   className={`${
                     index == 1 ? "mt-[18px]" : ""
                   } flex w-full max-w-[536px] shadow-workCard flex-col items-start border border-black border-opacity-[8%] rounded-xl  px-5 pb-[13px] pt-5 min-h-[273px]`}
                 >
-                  <a href="/" className=" max-sm:max-w-[38px] max-sm:h-[33px]">
-                    {obj.img}
-                  </a>
+                  <div className="sm:max-w-[48px] max-w-[38px] sm:max-h-[54px] max-h-[30px] bg-sky bg-opacity-20 w-full p-2 sm:p-3 h-full bg_works_ellipse flex items-center justify-center mb-1">
+                    <span className="max-w-[18px] sm:max-w-6 w-full">
+                      {obj.img}
+                    </span>
+                  </div>
                   <p
                     className={`${
                       index == 1 ? "mt-2" : ""
@@ -47,11 +50,11 @@ const HowWorks = () => {
             })}
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row gap-[14px] justify-center">
-          <button className="  p-[16px_28px] rounded bg-dark-blue font-semibold text-base leading-[26.59px] text-white flex sm:block justify-center sm:max-w-[197px] mt-[42px]">
+        <div className="flex flex-col sm:flex-row sm:gap-3.5 gap-[18px] justify-center">
+          <button className="py-4 px-7 rounded bg-dark-blue font-semibold text-base leading-[26.59px] text-white flex sm:block justify-center sm:max-w-[197px] mt-[42px] hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
             Create your Account
           </button>
-          <button className="  p-[16px_28px] rounded bg-white text-nowrap border border-dark-blue font-semibold text-base leading-[26.59px] text-dark-blue flex sm:block justify-center sm:max-w-[197px] mt-[42px]">
+          <button className="py-4 px-7 rounded bg-white text-nowrap border border-dark-blue font-semibold text-base leading-[26.59px] text-dark-blue flex sm:block justify-center sm:max-w-[197px] sm:mt-[42px]">
             Create your Account
           </button>
         </div>
