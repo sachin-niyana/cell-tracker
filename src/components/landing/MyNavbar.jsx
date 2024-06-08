@@ -67,16 +67,14 @@ const MyNavbar = () => {
                 Features{" "}
               </Link>
             </li>
-            <button className=" mt-[32px] md:hidden max-w-[315px] hover:scale-[1.1] hover:duration-300 text-sm leading-[23px] bg-dark-blue font-semibold text-white py-[14px] px-7 rounded-[4px]  duration-300  border-transparent border-2 w-full  ">
-              Log In
+            <button className="md:hidden block sm:py-4 py-3.5 px-7 w-full rounded bg-dark-blue font-semibold sm:text-base text-sm leading-[166%] text-white sm:block justify-center mx-auto hover:scale-[1.0] hover:duration-300 hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+              Log in
             </button>
           </ul>
-          <button className="md:block hidden bg-white  sm:py-4 py-3.5 px-7 rounded text-base font-semibold text-dark-blue hover:scale-[1.0] hover:duration-300   hover:text-white after:-z-20 after:absolute after:h-1 after:w-1 after:bg-dark-blue after:-left-2 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+          <button className="md:block hidden bg-white sm:py-4 py-3.5 px-7 rounded text-base font-semibold text-dark-blue hover:scale-[1.0] hover:duration-300 hover:text-white after:-z-20 after:absolute after:h-1 after:w-1 after:bg-dark-blue after:-left-2 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
             Log in
           </button>
-          <button className="md:!hidden block sm:py-4 py-3.5 px-7 w-full rounded bg-dark-blue font-semibold sm:text-base text-sm leading-[166%] text-white sm:block justify-center sm:max-w-[197px]  mx-auto hover:scale-[1.0] hover:duration-300 hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
-            Log in
-          </button>
+
           <div className="md:hidden" onClick={showNav}>
             {navBar ? (
               <div className="flex md:hidden flex-col relative z-50 justify-between w-[18px] h-[17px] cursor-pointer">
