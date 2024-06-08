@@ -62,7 +62,7 @@ const AccountForm = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form id="CreateAccount" onSubmit={handleSubmit}>
         <p className="text-dark-blue sm:text-base text-sm font-normal sm:pt-2 pt-1.5">
           Your Address
         </p>
