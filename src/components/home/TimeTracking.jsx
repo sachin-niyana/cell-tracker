@@ -20,7 +20,7 @@ const TimeTracking = () => {
           tracking the easy way
         </h2>
         <div className="flex items-center md:items-end justify-center flex-col-reverse md:flex-row gap-[42px] md:gap-0">
-          <div className="bg-white border-solid border border-black border-opacity-[0.08] shadow-light w-full max-w-[467px] py-[75px] px-6 md:p-[34px] rounded-tl-xl rounded-br-xl md:rounded-xl">
+          <div className="bg-white border-solid border border-black border-opacity-[0.08] shadow-light w-full md:max-w-[467px] max-w-[527px] py-[75px] px-6 md:p-[34px] rounded-tl-xl rounded-br-xl md:rounded-xl">
             <h3 className="text-dark-blue font-normal text-2xl md:text-3xxl leading-[120%] mb-[18px]">
               Cell Tracker
             </h3>
@@ -46,7 +46,7 @@ const TimeTracking = () => {
               </p>
             </div>
             <div className="mt-[27px] md:max-w-[189px] w-full">
-              <button className="bg-dark-blue w-full h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+              <button className="bg-dark-blue w-full py-4 px-6 rounded sm:text-base text-sm font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
                 Start your free trial
               </button>
             </div>
@@ -83,7 +83,7 @@ const TimeTracking = () => {
             </div>
             <div className="flex lg:items-center mt-7 gap-2 sm:gap-4 flex-col lg:flex-row">
               <div className="md:max-w-[168px] w-full">
-                <button className="bg-dark-blue w-full h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+                <button className="bg-dark-blue w-full py-4 px-6 rounded sm:text-base text-sm font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
                   30-Day Free Trial
                 </button>
               </div>

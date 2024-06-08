@@ -3,7 +3,8 @@ import { Facebook, Insta, Linkedin, Twiter } from "../common/Icons";
 import vector from "../../assets/images/landing/png/vector-left.png";
 import vectorright from "../../assets/images/landing/png/vector-right.png";
 import footerlogo from "../../assets/images/landing/png/footer-logo.png";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Footer = () => {
   function getCurrentYear() {
@@ -45,7 +46,9 @@ const Footer = () => {
             <ul className="flex sm:gap-6 gap-2.5 items-center justify-center">
               <li>
                 <Link
-                  href="#home"
+                  smooth={true}
+                  duration={500}
+                  to="home"
                   className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   {isLandingPath ? "Home" : "Help"}
@@ -53,7 +56,9 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#how-it-works"
+                  smooth={true}
+                  duration={500}
+                  to="how-it-works"
                   className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   {isLandingPath ? "How It Works" : "Contact us"}
@@ -61,7 +66,9 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#features"
+                  smooth={true}
+                  duration={500}
+                  to="features"
                   className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   {isLandingPath ? "Features" : "Found Phone"}

@@ -7,10 +7,10 @@ const Account = () => {
   return (
     <div className="relative my-container mx-auto" id="log-in">
       <span className=" absolute left-0 top-[9%]">
-        <Vector/>
+        <Vector />
       </span>
       <span className=" absolute right-0 z-10 sm:bottom-[-10%] bottom-[23%]">
-        <RightVector/>
+        <RightVector />
       </span>
       <div className="container max-w-[1188px] px-6 mx-auto pb-[124px] md:pb-[30px] lg:pb-[124px] pt-[54px] sm:pt-[60px] md:pt-[70px] lg:pt-[80px] xl:pt-[98px] relative z-20">
         <h2 className="text-center leading-[120%] text-dark-blue font-light text-[28px] md:text-3xl lg:text-4xl xl:text-5xl mb-[6px] sm:mb-2">
@@ -19,8 +19,8 @@ const Account = () => {
         <p className="text-center font-normal text-black text-opacity-70 text-sm sm:text-base leading-[150%] pb-[34px] sm:pb-10 md:pb-12 lg:pb-14 xl:pb-[72px]">
           Join now and protect your family's phones
         </p>
-        <div className="flex items-center gap-[42px] md:gap-6 xl:gap-[37px] flex-col md:flex-row">
-          <div className="w-full md:max-w-[350px] lg:max-w-[424px]  flex flex-col items-start max-w-[424px] mx-auto">
+        <div className="flex md:items-center items-start gap-[42px] md:gap-6 xl:gap-[37px] flex-col md:flex-row">
+          <div className="w-full md:max-w-[350px] lg:max-w-[424px]  flex flex-col items-start ">
             <h3 className="text-2xl sm:text-[28px] md:text-[32px] font-light text-dark-blue leading-[120%] pb-[6px] sm:pb-[15px]">
               Get a <span className="font-extrabold">24 hour</span> trial!
             </h3>
@@ -39,7 +39,7 @@ const Account = () => {
                 </p>
               </div>
             ))}
-            <div className="rounded-xl p-6 sm:p-[18px]  mt-[27px] md:mt-8 xl:mt-10 shadow-accountCard ">
+            <div className="rounded-xl p-6 sm:p-[18px] mt-[27px] md:mt-8 xl:mt-10 shadow-accountCard ">
               <p className="font-normal text-sm sm:text-base leading-[150%] text-center">
                 Terms: Users must be 16 or over. Pricing options are shown on
                 the payment page. Create an account to start a 24 hour trial
@@ -51,7 +51,7 @@ const Account = () => {
               </p>
             </div>
           </div>
-          <div className="shadow-accountForm rounded-xl bg-white w-full max-w-[550px] lg:max-w-[679px] overflow-hidden">
+          <div className="shadow-accountForm rounded-xl bg-white w-full md:max-w-[550px] lg:max-w-[679px] overflow-hidden">
             <div className="bg-dark-blue py-6 sm:py-3.5 px-2 sm:px-4 lg:px-5">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-[6px] md:gap-3">

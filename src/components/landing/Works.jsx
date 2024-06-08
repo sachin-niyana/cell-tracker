@@ -5,7 +5,10 @@ import { Dotedline } from "../common/Icons";
 const Works = () => {
   return (
     <>
-      <div id="how-it-works" className=" my_container mx-auto sm:pt-[131px] pt-24 pb-[152px]">
+      <div
+        id="how-it-works"
+        className=" my_container mx-auto sm:pt-[131px] pt-24 pb-[152px]"
+      >
         <h2 className="text-2xxl md:text-4xl lg:text-5xl font-light text-dark-blue leading-[32.8px] sm:leading-10 lg:leading-[48px] text-center">
           How it <span className="font-extrabold">works</span>
         </h2>

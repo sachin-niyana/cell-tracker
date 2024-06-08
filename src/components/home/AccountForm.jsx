@@ -27,17 +27,15 @@ const AccountForm = () => {
     if (!formData.address) formErrors.address = "Address is required";
     if (!formData.email) formErrors.email = "Email is required";
     if (!/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/.test(formData.email))
-      formErrors.email = "Invalid email format";
+      formErrors.email = "Email is required";
     if (!formData.cardNumber) formErrors.cardNumber = "Card number is required";
-    if (!/^\d{10}$/.test(formData.cardNumber))
-      formErrors.cardNumber = "Card number must be 10 digits";
+    if (!/^\d{16}$/.test(formData.cardNumber))
+      formErrors.cardNumber = "Card number is required";
     if (!formData.expiryDate) formErrors.expiryDate = "Expiry date is required";
-    if (!/^(0[1-9]|1[0-2])\/\d{2}$/.test(formData.expiryDate))
-      formErrors.expiryDate = "Expiry date must be MM/YY format";
     if (!formData.securityCode)
       formErrors.securityCode = "Security code is required";
     if (!/^\d{3,4}$/.test(formData.securityCode))
-      formErrors.securityCode = "Security code must be 3 or 4 digits";
+      formErrors.securityCode = "Security code is required";
 
     setErrors(formErrors);
     setIsFormValid(Object.keys(formErrors).length === 0);
@@ -76,7 +74,7 @@ const AccountForm = () => {
           </div>
           <input
             id="address"
-            className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-[#FAFAFA] px-[14px] remove_input_number_arrow"
+            className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-[#FAFAFA] px-[14px] "
             placeholder="Address Line 1"
             value={formData.address}
             onChange={handleChange}
@@ -102,7 +100,7 @@ const AccountForm = () => {
           </div>
           <input
             id="email"
-            className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-[#FAFAFA] px-[14px] remove_input_number_arrow"
+            className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-[#FAFAFA] px-[14px] "
             placeholder="Email Address"
             value={formData.email}
             onChange={handleChange}
@@ -124,7 +122,7 @@ const AccountForm = () => {
           <input
             type="number"
             id="cardNumber"
-            className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-[#FAFAFA] px-[14px] remove_input_number_arrow"
+            className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-[#FAFAFA] px-[14px] "
             placeholder="Valid Card Number"
             value={formData.cardNumber}
             onChange={handleChange}
@@ -150,7 +148,7 @@ const AccountForm = () => {
               <input
                 type="number"
                 id="expiryDate"
-                className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-light-gray px-[14px] remove_input_number_arrow"
+                className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-light-gray px-[14px]"
                 placeholder="MM/YY"
                 value={formData.expiryDate}
                 onChange={handleChange}
@@ -176,7 +174,7 @@ const AccountForm = () => {
               <input
                 type="number"
                 id="securityCode"
-                className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-[#FAFAFA] px-[14px] remove_input_number_arrow"
+                className="py-[12px] sm:py-[14px] text-primary text-sm sm:text-base placeholder:text-dark-blue outline-none w-full bg-[#FAFAFA] px-[14px] "
                 placeholder="E.x @ 0123"
                 value={formData.securityCode}
                 onChange={handleChange}

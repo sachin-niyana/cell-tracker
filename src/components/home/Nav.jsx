@@ -33,7 +33,7 @@ const Nav = () => {
         <ul
           className={`${
             navBar ? "right-0" : "right-[100%] "
-          } flex gap-5 md:gap-6 max-[1023px]:w-full h-full fixed bg-white top-0 items-center pt-[120px] md:pt-0 md:h-unset md:static md:bg-transparent md:justify-end flex-col md:flex-row z-40 transition-all ease-linear duration-300 `}
+          } flex gap-5 md:gap-3.5 max-[1023px]:w-full h-full fixed bg-white top-0 items-center pt-[120px] md:pt-0 md:h-unset md:static md:bg-transparent md:justify-end flex-col md:flex-row z-40 transition-all ease-linear duration-300 `}
         >
           <li className="flex items-center gap-1.5">
             <span>
@@ -51,7 +51,7 @@ const Nav = () => {
           <li>
             <Link
               onClick={closeNav}
-              className="md:text-white text-black duration-500 text-base leading-[160%] font-normal relative after:w-0 after:bg-white after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
+              className="md:text-white md:ms-2.5 text-black duration-500 text-base leading-[160%] font-normal relative after:w-0 after:bg-white after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
               href="#home"
             >
               Log In

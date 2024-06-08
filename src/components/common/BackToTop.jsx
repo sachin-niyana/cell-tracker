@@ -24,7 +24,7 @@ const BackToTop = () => {
       {isBackToTopVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-10 right-6 sm:w-[54px] sm:h-[54px] w-[48px] h-[48px] shadow-accountCard animate-bounce bg-white text-white flex justify-center items-center rounded-full z-50 transition-all duration-300 ease-linear"
+          className="fixed bottom-10 right-6 sm:w-[54px] sm:h-[54px] w-[48px] h-[48px] border border-dark-blue shadow-accountCard animate-bounce bg-white text-white flex justify-center items-center rounded-full z-50 transition-all duration-300 ease-linear"
         >
           <BackTop className="rotate-45" />
         </button>
