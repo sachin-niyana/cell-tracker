@@ -11,6 +11,7 @@ import {
 } from "../common/Icons";
 import MyNavbar from "./MyNavbar";
 import { Link } from "react-router-dom";
+import { countryCodes } from "../common/Helper";
 const Hero = () => {
   return (
     <div
@@ -29,9 +30,9 @@ const Hero = () => {
         alt="mobilelips"
       />
       <div className="my_container mx-auto relative pb-5">
-        <div className="flex sm:flex-row flex-col sm:gap-0 gap-16 justify-center items-center pt-14 sm:pt-0">
+        <div className="flex md:flex-row flex-col sm:gap-0 gap-16 justify-center items-center pt-14 sm:pt-0">
           <div className="flex flex-col">
-            <h1 className="max-w-[520px] sm:text-start text-center sm:leading-[64px] leading-[37px] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
+            <h1 className="max-w-[520px] sm:text-start text-center lg:leading-[64px] md:leading-[41px] leading-[37px] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
               Locate any phone,{" "}
               <span className="font-light">anywhere, anytime</span>
             </h1>
@@ -41,51 +42,41 @@ const Hero = () => {
               nisl nibh sed. Egestas aliquam id quam nunc.
             </p>
             <div className="bg-white sm:mx-0 mx-auto rounded ps-2.5 max-w-[448px] sm:h-[55px] h-[51px] sm:mt-4 mt-8">
-              <div className="flex justify-start items-center gap-2">
-                <Flag />
-                <div className="flex justify-start items-center gap-1">
-                  <select
-                    className="outline-none text-sm leading-[23px] md:leading-[26px] md:text-base text-black font-normal cursor-pointer"
-                    name="number"
-                    id="number"
-                  >
-                    <option value="91" className="flex items-center gap-2">
-                      +91
-                    </option>
-                    <option value="01" className="flex items-center gap-2">
-                      +82
-                    </option>
-                    <option value="61" className="flex items-center gap-2">
-                      +92
-                    </option>
-                    <option value="02" className="flex items-center gap-2">
-                      +71
-                    </option>
-                    <option value="21" className="flex items-center gap-2">
-                      +10
-                    </option>
-                  </select>
-                </div>
-                <div className="w-full flex gap-2">
-                  <input
-                    required
-                    className="w-full sm:my-3.5 my-[11px] h-7 outline-none leading-[166%] text-black text-base font-normal"
-                    type="number"
-                  />
-                  <div className="sm:py-3.5 py-3 px-6 w-full cursor-pointer rounded bg-dark-blue text-white sm:block justify-center sm:max-w-[112px] max-w-[107px] mx-auto hover:scale-[1.0] hover:duration-300 border-2 border-solid border-dark-blue hover:text-dark-blue after:-z-20 after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
-                    <div className="flex group items-center gap-1">
-                      <TopRightArrow />
-                      <p className="font-semibold sm:text-base text-sm leading-[166%]">
-                        Locate
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="flex justify-start items-center gap-2">
+      <Flag />
+      <div className="flex justify-start items-center gap-1">
+        <select
+          className="outline-none text-sm leading-[23px] md:leading-[26px] md:text-base text-black font-normal cursor-pointer"
+          name="number"
+          id="number"
+        >
+          {countryCodes.map((code) => (
+            <option key={code.value} value={code.value} className="flex items-center gap-2">
+              {code.label}
+            </option>
+          ))}
+        </select>
+      </div>
+      <div className="w-full flex gap-2">
+        <input
+          required
+          className="w-full sm:my-3.5 my-[11px] h-7 outline-none leading-[166%] text-black text-base font-normal"
+          type="number"
+        />
+        <div className="sm:py-3.5 py-3 px-6 w-full cursor-pointer rounded bg-dark-blue text-white sm:block justify-center sm:max-w-[112px] max-w-[107px] mx-auto hover:scale-[1.0] hover:duration-300 border-2 border-solid border-dark-blue hover:text-dark-blue after:-z-20 after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+          <div className="flex group items-center gap-1">
+            <TopRightArrow />
+            <p className="font-semibold sm:text-base text-sm leading-[166%]">
+              Locate
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
             </div>
           </div>
           <div className="relative sm:pt-[10%] pt-0">
-            <div className="absolute -bottom-3 xl:bottom-8 right-0 xl:-right-4 md:w-[247px] shadow-header w-[205px] md:p-[16px] sm:p-3 p-2 rounded-xl bg-[#F2F6FB] shadow-darkShadow overflow-hidden max-h-[189px]">
+            <div className="absolute -bottom-3 xl:bottom-8 right-0 xl:-right-4 sm:w-[247px] shadow-header w-[205px] sm:p-[16px] p-2 rounded-xl bg-[#F2F6FB] shadow-darkShadow overflow-hidden max-h-[189px]">
               <div className="flex gap-1.5 md:gap-3 items-center xl:h-[33px] pb-1.5">
                 <Found />
                 <p className="font-normal text-lg md:text-xl text-primary">
@@ -101,7 +92,7 @@ const Hero = () => {
               <p className="font-normal md:text-base text-sm text-black !leading-[150%] sm:pb-3.5 pb-3 pt-1.5">
                 3 Succession Walk, Fish Island, London E3 2RX, United Kingdom
               </p>
-              <div className="absolute sm:bottom-[2%] bottom-[6%] left-0">
+              <div className="absolute sm:bottom-[2%] bottom-[6%] left-0 pointer-events-none">
                 <LeftVector className="w-[23px] h-[21px] " />
               </div>
               <p className="font-normal text-xs md:text-sm text-black !leading-normal text-end">

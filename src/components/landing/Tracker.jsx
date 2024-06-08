@@ -9,27 +9,27 @@ const Tracker = () => {
     <div id="features" className=" relative">
       <span className=" absolute right-0 lg:bottom-[2%] md:bottom-[-12%] bottom-[2%] hidden md:block">
         <img
-          className="md:w-[106px] w-[41px] md:h-[113px] h-[44px]"
+          className="md:w-[106px] w-[41px] md:h-[113px] h-[44px] pointer-events-none"
           src={vectorright}
           alt="vector-left"
         />
       </span>
       <span className=" absolute left-0 bottom-[-9%] md:hidden block">
         <img
-          className=" md:w-[106px] w-[41px] md:h-[113px] h-[44px]"
+          className=" md:w-[106px] w-[41px] md:h-[113px] h-[44px] pointer-events-none"
           src={vector}
           alt="vector"
         />
       </span>
       <span className=" absolute left-0 top-[-2%] ">
         <img
-          className=" md:w-[106px] w-[41px] md:h-[113px] h-[44px]"
+          className=" md:w-[106px] w-[41px] md:h-[113px] h-[44px] pointer-events-none"
           src={vector}
           alt="vector"
         />
       </span>
       <div className="xl:mt-[132px] mt-24">
-        <div className=" max-w-[1140px] mx-auto min-[1154px]:px-3 px-5">
+        <div className="max-w-[1140px] mx-auto min-[1154px]:px-3 px-5">
           <h2 className="text-2xxl sm:text-4xl lg:text-5xl font-light text-dark-blue leading-[32.8px] sm:leading-10 lg:leading-[48px] text-center">
             Find Anyone Anywhere{" "}
             <span className="font-extrabold block sm:inline">
@@ -45,7 +45,7 @@ const Tracker = () => {
             <img
               src={mobiletrack}
               alt="mobile-map"
-              className="top-[-22px]  lg:absolute w-[213px] h-[319px] lg:w-[256px] lg:h-[386px] translate-x-7"
+              className="top-[-22px] lg:absolute w-[213px] h-[319px] lg:w-[256px] lg:h-[386px] translate-x-7"
             />
             {trackerdata.map((obj, index) => {
               return (
@@ -65,14 +65,15 @@ const Tracker = () => {
                       : ""
                   } max-md:justify-center w-full h-[156px] flex sm:w-1/2 pr-[4px]`}
                 >
-                  <div className="flex items-center pr-4 gap-[14px] w-full h-[152px] sm:min-h-[156px] max-w-[376px] rounded border border-black border-opacity-10">
-                    <div className="sm:min-w-[75px] cursor-pointer sm:h-[70px] min-w-[61px] min-h-[57px] relative min-[1140px]:left-[-.5px] left-[-1px] border-l-[1px] border-l-black border-opacity-10 bg-light-sky flex justify-center items-center">
-                      {obj.img}
-                    </div>
-                    <p className=" !font-normal text-black text-lg leading-[29.92px] lg:text-xl md:leading-[33.24px]  max-w-[269px]">
-                      {obj.description}
-                    </p>
-                  </div>
+                  <div className="flex items-center hover:bg-bluegradient duration-300 hover:duration-300 bg-opacity-10 group pr-4 gap-[14px] w-full h-[152px] sm:min-h-[156px] max-w-[376px] rounded border border-black border-opacity-10 transition-all">
+  <div className="sm:min-w-[75px] group-hover:border-tranparent cursor-pointer sm:h-[70px] min-w-[61px] min-h-[57px] relative min-[1140px]:left-[-.5px] left-[-1px] border-l-[1px] border-l-black border-opacity-10 bg-light-sky flex justify-center items-center group-hover:bg-white transition-all">
+    {obj.img}
+  </div>
+  <p className="!font-normal text-black text-lg leading-[29.92px] lg:text-xl md:leading-[33.24px] max-w-[269px] group duration-300 group-hover:text-white transition-colors">
+    {obj.description}
+  </p>
+</div>
+
                 </div>
               );
             })}

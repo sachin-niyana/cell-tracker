@@ -4,15 +4,15 @@ import vector from "../../assets/images/landing/png/vector-right.png";
 
 const Privacy = () => {
   return (
-    <div className=" relative sm:pt-[76px] pt-4">
-      <span className=" absolute right-0 lg:top-[27%] md:top-[13%] top-[-4%] ">
+    <div className="relative sm:pt-[76px] pt-4">
+      <span className="absolute right-0 lg:top-[27%] md:top-[13%] top-[-4%] ">
         <img
-          className=" md:w-[106px] w-[41px] md:h-[113px] h-[44px]"
+          className="md:w-[106px] w-[41px] md:h-[113px] h-[44px] pointer-events-none"
           src={vector}
           alt="vector"
         />
       </span>
-      <div className="container max-w-[1140px]  max-xl:px-6 mx-auto">
+      <div className="container max-w-[1140px] max-xl:px-6 mx-auto">
         <h2 className="text-2xxl md:text-4xl lg:text-5xl font-light text-dark-blue leading-[32.8px] sm:leading-10 lg:leading-[48px] text-center">
           Universal <span className="font-extrabold">Privacy</span>
         </h2>

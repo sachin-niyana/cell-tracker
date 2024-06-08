@@ -24,6 +24,8 @@ import {
   Money,
   Private,
 } from "./Icons";
+import { Facebook, Insta, Linkedin, Twiter } from "../common/Icons";
+
 
 export const items = [
   {
@@ -151,4 +153,39 @@ export const trialList = [
   { icon: <Protect />, title: "Protect your family" },
   { icon: <Money />, title: "14 day money back guarantee" },
   { icon: <Private />, title: "Private & confidential" },
+];
+
+// footer
+
+export const links = [
+  { path: "#home", 
+  landingText: "Home", 
+  otherText: "Help" 
+},
+  { path: "#how-it-works", 
+  landingText: "How It Works", 
+  otherText: "Contact us" 
+},
+  { path: "#features", 
+  landingText: "Features", 
+  otherText: "Found Phone" 
+},
+];
+
+// socialmeadia
+export const socialLinks = [
+  { href: "https://in.linkedin.com/", icon: <Linkedin /> },
+  { href: "https://www.instagram.com/", icon: <Insta /> },
+  { href: "https://www.facebook.com/", icon: <Facebook /> },
+  { href: "https://x.com/?lang=en", icon: <Twiter /> },
+];
+
+// countercode
+
+export const countryCodes = [
+  { value: "91", label: "+91" },
+  { value: "82", label: "+82" },
+  { value: "92", label: "+92" },
+  { value: "71", label: "+71" },
+  { value: "10", label: "+10" },
 ];
