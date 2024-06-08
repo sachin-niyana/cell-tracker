@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Logo, Question } from "../common/Icons";
-import logo2 from "../../assets/images/landing/png/phnlogo.png";
+import logo2 from "../../assets/images/landing/png/phn-logo.png";
 
 const Nav = () => {
   const [navBar, setnavBar] = useState(false);

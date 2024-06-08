@@ -1,8 +1,8 @@
 import React from "react";
-import mobiletrack from "../../assets/images/landing/png/iphonelocation.png";
+import mobiletrack from "../../assets/images/landing/png/iphone-location.png";
 import { trackerdata } from "../common/Helper";
-import vector1 from "../../assets/images/landing/png/vector1.png";
-import vector from "../../assets/images/landing/png/vector2.png";
+import vectorright from "../../assets/images/landing/png/vector-right.png";
+import vector from "../../assets/images/landing/png/vector-left.png";
 
 const Tracker = () => {
   return (
@@ -10,8 +10,8 @@ const Tracker = () => {
       <span className=" absolute right-0 lg:bottom-[2%] md:bottom-[-12%] bottom-[2%] hidden md:block">
         <img
           className="md:w-[106px] w-[41px] md:h-[113px] h-[44px]"
-          src={vector1}
-          alt="vector2"
+          src={vectorright}
+          alt="vector-left"
         />
       </span>
       <span className=" absolute left-0 bottom-[-9%] md:hidden block">

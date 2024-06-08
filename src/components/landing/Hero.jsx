@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="bg-tracking pb-16 w-full object-cover bg-center bg-cover relative"
+      className="bg-header pb-16 w-full object-cover bg-center bg-cover relative"
     >
       <MyNavbar />
       <img

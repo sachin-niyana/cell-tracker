@@ -12,6 +12,7 @@ module.exports = {
 
       backgroundImage: {
         hero: "url('./assets/images/background/webp/home-bg.webp')",
+        header: "url('./assets/images/background/webp/hero-bg.webp')",
         tracking: "url('./assets/images/background/webp/tracking-bg.webp')",
         find: "url('./assets/images/background/webp/find-bg.webp')",
         bluegradient:

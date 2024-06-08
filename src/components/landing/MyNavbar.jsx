@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo2 from "../../assets/images/landing/png/phnlogo.png";
+import logo2 from "../../assets/images/landing/png/phn-logo.png";
 import { Logo } from "../common/Icons";
 
 const MyNavbar = () => {

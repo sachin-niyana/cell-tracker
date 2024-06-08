@@ -1,6 +1,6 @@
 import React from "react";
 import { items } from "../common/Helper";
-import vector from "../../assets/images/landing/png/vector1.png";
+import vector from "../../assets/images/landing/png/vector-right.png";
 
 const Privacy = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import { Facebook, Insta, Linkedin, Twiter } from "../common/Icons";
-import vector from "../../assets/images/landing/png/vector2.png";
-import vector1 from "../../assets/images/landing/png/vector1.png";
-import footerlogo from "../../assets/images/landing/png/footerlogo.png";
+import vector from "../../assets/images/landing/png/vector-left.png";
+import vectorright from "../../assets/images/landing/png/vector-right.png";
+import footerlogo from "../../assets/images/landing/png/footer-logo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -23,7 +23,7 @@ const Footer = () => {
       <span className=" absolute right-0 top-[-5%] md:hidden block">
         <img
           className=" md:w-[106px] w-[41px] md:h-[113px] h-[44px]"
-          src={vector1}
+          src={vectorright}
           alt="vector"
         />
       </span>
@@ -34,7 +34,7 @@ const Footer = () => {
               <img
                 className=" sm:w-[259px] w-[211px] sm:h-[36px] h-[29px] cursor-pointer"
                 src={footerlogo}
-                alt="footerlogo"
+                alt="footer-logo"
               />
             </span>
           </div>
