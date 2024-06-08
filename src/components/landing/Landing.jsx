@@ -1,9 +1,9 @@
 import React from "react";
-import Footer from "../common/Footer";
 import Hero from "./Hero";
 import Privacy from "./Privacy";
 import Tracker from "./Tracker";
 import Works from "./Works";
+import Footer from "../common/Footer";
 
 const Landing = () => {
   return (
@@ -12,8 +12,8 @@ const Landing = () => {
       <Privacy />
       <Tracker />
       <Works />
-      <Footer />
-    </>
+      <Footer/>
+  </>
   );
 };
 

@@ -10,23 +10,17 @@ const TimeTracking = () => {
         alt="wave"
       />
       <img
-        className="absolute bottom-[-1px] left-0 w-full"
+        className="absolute xl:h-[161px] bottom-[-1px] left-0 w-full"
         src={bottom}
         alt="wave"
       />
       <div className="container max-w-[1188px] px-6 mx-auto">
-        <h2
-          data-aos="fade-up"
-          className="text-white font-light text-[28px] max-w-[295px] sm:text-3xl lg:text-4xl xl:text-5xl mb-[65px] leading-[116%] md:leading-none md:mb-[70px] lg:mb-[80px] xl:mb-[109px] text-center lg:max-w-[664px] sm:max-w-[500px] mx-auto"
-        >
+        <h2 className="text-white font-light text-[28px] max-w-[295px] sm:text-3xl lg:text-4xl xl:text-5xl mb-[65px] leading-[116%] md:leading-none md:mb-[70px] lg:mb-[80px] xl:mb-[109px] text-center lg:max-w-[664px] sm:max-w-[500px] mx-auto">
           Join <span className="font-bold">70,000+ companies</span> doing time
           tracking the easy way
         </h2>
         <div className="flex items-center md:items-end justify-center flex-col-reverse md:flex-row gap-[42px] md:gap-0">
-          <div
-            data-aos="fade-right"
-            className="bg-white border-dark-blue border-opacity-20 shadow-light w-full max-w-[467px] py-[75px] px-6 md:p-[34px] rounded-tl-xl rounded-br-xl md:rounded-xl"
-          >
+          <div className="bg-white border-solid border border-black border-opacity-[0.08] shadow-light w-full max-w-[467px] py-[75px] px-6 md:p-[34px] rounded-tl-xl rounded-br-xl md:rounded-xl">
             <h3 className="text-dark-blue font-normal text-2xl md:text-3xxl leading-[120%] mb-[18px]">
               Cell Tracker
             </h3>
@@ -51,16 +45,13 @@ const TimeTracking = () => {
                 free forever
               </p>
             </div>
-            <div className="mt-[27px] md:max-w-[192px] w-full">
-              <button className="bg-dark-blue w-full lg:max-w-[189px] h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+            <div className="mt-[27px] md:max-w-[189px] w-full">
+              <button className="bg-dark-blue w-full h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
                 Start your free trial
               </button>
             </div>
           </div>
-          <div
-            data-aos="fade-left"
-            className="bg-white border-[#03045E33] shadow-light w-full max-w-[527px] px-6 pt-[60px] pb-[30px] md:p-[34px] md:pt-[63px] rounded-tl-xl rounded-br-xl md:rounded-r-xl md:rounded-t-xl relative md:ml-[-10px]"
-          >
+          <div className="bg-white border-solid border border-black border-opacity-[0.08] shadow-light w-full max-w-[527px] px-6 pt-[60px] pb-[30px] md:p-[34px] md:pt-[63px] rounded-tl-xl rounded-br-xl md:rounded-r-xl md:rounded-t-xl relative md:ml-[-10px]">
             <div className="absolute top-[-8%] right-1/2 translate-x-1/2 md:translate-x-0 lg:right-[-7%] md:right-[-5%] xl:right-[-9%] max-w-[157px] sm:max-w-[182px] md:max-w-[204px] w-full bg-dark-blue sm:py-4 py-3 sm:px-[35px] ps-6 pe-5 rounded text-xl md:text-2xl text-white font-normal leading-[166%]">
               Most Popular
             </div>
@@ -90,9 +81,9 @@ const TimeTracking = () => {
                 per seat/month (billed annually)
               </p>
             </div>
-            <div className="flex xl:items-center mt-7 gap-2 sm:gap-4 flex-col xl:flex-row">
-              <div className="md:max-w-[192px] w-full">
-                <button className="bg-dark-blue w-full maw-w-[168px] h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+            <div className="flex lg:items-center mt-7 gap-2 sm:gap-4 flex-col lg:flex-row">
+              <div className="md:max-w-[168px] w-full">
+                <button className="bg-dark-blue w-full h-[59px] py-4 px-6 rounded text-base font-semibold text-white hover:scale-[1.0] hover:duration-300   hover:text-dark-blue after:-z-20 outline after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320]  after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
                   30-Day Free Trial
                 </button>
               </div>

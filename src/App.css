@@ -4,7 +4,7 @@ html,
 body {
   font-family: Mukta, sans-serif !important;
 }
-.overflow-x{
+.overflow-x {
   overflow-x: clip;
 }
 
@@ -25,9 +25,17 @@ input[type="number"]::-webkit-outer-spin-button {
 .bg_works_ellipse2 {
   animation: borders2 5s ease-in-out infinite;
 }
-
-
-
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background: skyblue;
+  border-radius: 20px;
+}
 @keyframes borders {
   0%,
   100% {

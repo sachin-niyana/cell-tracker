@@ -12,7 +12,7 @@ import {
 import MyNavbar from "./MyNavbar";
 const Hero = () => {
   return (
-    <div className="bg-hero pb-16 w-full object-cover bg-center bg-cover relative">
+    <div id="home" className="bg-tracking pb-16 w-full object-cover bg-center bg-cover relative">
       <MyNavbar />
       <img
         className="absolute sm:block hidden bottom-[-1px] max-h-[600px] w-full"
@@ -24,7 +24,7 @@ const Hero = () => {
         src={mobilelips}
         alt="mobilelips"
       />
-      <div className="my_container mx-auto relative md:pt-[83px] pt-[56px] pb-5">
+      <div className="my_container mx-auto relative pb-5">
         <div className="flex sm:flex-row flex-col sm:gap-0 gap-16 justify-center items-center">
           <div className="flex flex-col">
             <h1 className="max-w-[520px] sm:text-start text-center leading-[100%] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
@@ -45,7 +45,7 @@ const Hero = () => {
                   </p>
                   <BottomArrow />
                 </div>
-                <form className="w-full flex gap-2">
+                <div className="w-full flex gap-2">
                   <input
                     required
                     className="w-full my-3.5 h-7 outline-none leading-[166%] text-black text-base font-normal"
@@ -57,11 +57,11 @@ const Hero = () => {
                     </span>
                     Locate
                   </button>
-                </form>
+                </div>
               </div>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative pt-[10%]">
             <div className="absolute -bottom-3 xl:bottom-8 right-0 xl:-right-4 md:w-[247px] w-[205px] md:p-[16px] sm:p-3 p-2 rounded-xl bg-[#F2F6FB] shadow-darkShadow overflow-hidden max-h-[189px]">
               <div className="flex gap-1.5 md:gap-3 items-center xl:h-[33px] pb-1.5">
                 <Found />
