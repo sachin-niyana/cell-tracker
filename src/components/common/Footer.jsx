@@ -32,36 +32,60 @@ const Footer = () => {
           <div className="w-full md:w-1/3 flex justify-center md:justify-start">
             <span>
               <img
-                className=" sm:w-[249] w-[211px] sm:h-[30px] h-[29px] cursor-pointer"
+                className=" sm:w-[259px] w-[211px] sm:h-[36px] h-[29px] cursor-pointer"
                 src={footerlogo}
                 alt="footerlogo"
               />
             </span>
           </div>
           <div className="w-full md:w-1/3 flex justify-center md:mt-4 mt-9 lg:mt-0 ">
-            <ul className="flex gap-6 items-center">
+            <ul className="flex sm:gap-6 gap-[10px] items-center">
               <li>
                 <Link
                   href="#home"
-                  className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
+                  className="font-normal hidden sm:block sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   Home
                 </Link>
               </li>
               <li>
                 <Link
-                  to="#how-it-works"
-                  className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
+                  href="#home"
+                  className="font-normal block sm:hidden sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
+                >
+                  Help
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#how-it-works"
+                  className="font-normal sm:text-base hidden sm:block text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   How It Works
                 </Link>
               </li>
               <li>
                 <Link
+                  href="#how-it-works"
+                  className="font-normal sm:text-base block sm:hidden text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
+                >
+                  Contact us
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="#features"
-                  className="font-normal sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
+                  className="font-normal sm:text-base text-sm hidden sm:block text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   Features
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#features"
+                  className="font-normal sm:text-base block sm:hidden text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
+                >
+                  Found Phone
                 </Link>
               </li>
             </ul>

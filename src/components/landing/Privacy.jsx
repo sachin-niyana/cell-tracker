@@ -4,7 +4,7 @@ import vector from "../../assets/images/landing/png/vector1.png";
 
 const Privacy = () => {
   return (
-    <div className=" relative sm:pt-[76px] pt-8">
+    <div className=" relative sm:pt-[76px] pt-4">
       <span className=" absolute right-0 lg:top-[27%] md:top-[13%] top-[-4%] ">
         <img
           className=" md:w-[106px] w-[41px] md:h-[113px] h-[44px]"
@@ -20,7 +20,7 @@ const Privacy = () => {
           Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
           elit rhoncus vestibulum fames libero id.
         </p>
-        <div className="flex flex-row flex-wrap sm:-mx-3 items-center justify-center md:pt-12 sm:pt-10 pt-[18px] lg:pt-[56px]">
+        <div className="flex flex-row flex-wrap sm:-mx-3 items-center justify-center md:pt-12 sm:pt-10 pt-[18px] lg:pt-[36px]">
           {items.map((item, index) => (
             <div
               key={index}
@@ -31,7 +31,7 @@ const Privacy = () => {
                   <div className="sm:w-[75px] sm:h-[70px] cursor-pointer w-[61px] h-[57px] relative z-[4] min-[1140px]:left-[-.5px] left-[-1px] border-l-[1px] border-l-black border-opacity-10 group-hover:bg-white bg-light-sky flex justify-center items-center mt-6 sm:mt-7">
                     {item.img}
                   </div>
-                  <div className="sm:p-[14px_14px_12px_12px] p-[10px_12px_22px_12px] relative">
+                  <div className="sm:p-[14px_12px_12px_12px] p-[10px_12px_22px_12px] relative">
                     <p className="font-normal text-xl leading-6 sm:leading-[28.8px] sm:text-2xl text-black group duration-300 group-hover:text-white">
                       {item.title}
                     </p>

@@ -6,7 +6,7 @@ import vector from "../../assets/images/landing/png/vector2.png";
 
 const Tracker = () => {
   return (
-    <div className=" relative">
+    <div id="features" className=" relative">
       <span className=" absolute right-0 lg:bottom-[2%] md:bottom-[-12%] bottom-[2%] hidden md:block">
         <img
           className="md:w-[106px] w-[41px] md:h-[113px] h-[44px]"
@@ -69,7 +69,7 @@ const Tracker = () => {
                     <div className="sm:min-w-[75px] cursor-pointer sm:h-[70px] min-w-[61px] min-h-[57px] relative min-[1140px]:left-[-.5px] left-[-1px] border-l-[1px] border-l-black border-opacity-10 bg-light-sky flex justify-center items-center">
                       {obj.img}
                     </div>
-                    <p className=" font-normal text-black text-lg leading-[29.92px] lg:text-xl md:leading-[33.24px]  max-w-[269px]">
+                    <p className=" !font-normal text-black text-lg leading-[29.92px] lg:text-xl md:leading-[33.24px]  max-w-[269px]">
                       {obj.description}
                     </p>
                   </div>

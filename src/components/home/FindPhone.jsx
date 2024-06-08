@@ -1,12 +1,15 @@
 import React from "react";
-import { LeftVector } from "../common/Icons";
+import {  RightVector, Vector } from "../common/Icons";
 import findPhone from "../../assets/images/home/png/find-phone.png";
 
 const FindPhone = () => {
   return (
     <div className="relative max-w-[2000px] mx-auto">
-      <span className="absolute left-0 max-w-[106px] top-[40%] hidden xl:block -translate-y-1/2">
-        <LeftVector />
+       <span className=" absolute left-0 top-[27%]">
+        <Vector/>
+      </span>
+       <span className=" absolute right-0 bottom-[-57%]">
+      <RightVector/>
       </span>
       <div className="my_container mx-auto mt-[124px] mb-[58px] sm:mb-16 lg:mb-[102px] relative">
         <span className="absolute w-full top-[-135px] left-[50%] -translate-x-1/2 md:translate-x-0 md:top-auto md:bottom-[-80px] lg:bottom-[-130px] md:left-10 max-w-[375px] lg:max-w-[500px] xl:max-w-[606.73px]">

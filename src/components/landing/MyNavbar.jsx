@@ -23,7 +23,7 @@ const MyNavbar = () => {
           <a href="/" className="relative z-[13]" aria-label="logo">
             {navBar ? (
               <img
-                className=" w-[102px] h-[17px] mt-4"
+                className=" md:w-[249px] w-[98px] md:h-[36px] max-h-[13px] mt-3"
                 src={logo2}
                 alt="logo2"
               />
@@ -32,13 +32,14 @@ const MyNavbar = () => {
             )}
           </a>
           <ul
-            className={`flex items-center gap-[35px] duration-300 max-md:fixed max-md:w-full max-md:h-full max-md:justify-start max-md:pt-[121px] max-md:flex-col max-md:z-[10] max-md:top-0 max-md:left-[-105%] max-md:p-[30px] max-md:bg-white ${
+            className={`flex items-center gap-5 sm:gap-[35px] duration-300 max-md:fixed max-md:w-full max-md:h-full max-md:justify-start max-md:pt-[121px] max-md:flex-col max-md:z-[10] max-md:top-0 max-md:left-[-105%] max-md:p-[30px] max-md:bg-white ${
               navBar && "!left-0"
             }`}
           >
             <li>
               <Link
                 onClick={closeNav}
+                href="#home"
                 to="/"
                 className="text-black md:text-white  text-base leading-[26.59px] font-normal relative z-[1] after:w-0 after:bg-white after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
               >
@@ -49,7 +50,7 @@ const MyNavbar = () => {
             <li>
               <Link
                 onClick={closeNav}
-                href="#"
+                href="#how-it-works"
                 className="text-black md:text-white  text-base leading-[26.59px] font-normal relative z-[1] after:w-0 after:bg-white after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
               >
                 {" "}
@@ -59,7 +60,7 @@ const MyNavbar = () => {
             <li>
               <Link
                 onClick={closeNav}
-                href="#"
+                href="#Features"
                 className="text-black md:text-white  text-base leading-[26.59px] font-normal relative z-[1] after:w-0 after:bg-white after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
               >
                 {" "}

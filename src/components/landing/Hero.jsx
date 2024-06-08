@@ -12,7 +12,10 @@ import {
 import MyNavbar from "./MyNavbar";
 const Hero = () => {
   return (
-    <div className="bg-hero pb-16 w-full object-cover bg-center bg-cover relative">
+    <div
+      id="home"
+      className="bg-tracking pb-16 w-full object-cover bg-center bg-cover relative"
+    >
       <MyNavbar />
       <img
         className="absolute sm:block hidden bottom-[-1px] max-h-[600px] w-full"
@@ -24,8 +27,8 @@ const Hero = () => {
         src={mobilelips}
         alt="mobilelips"
       />
-      <div className="my_container mx-auto relative md:pt-[83px] pt-[56px] pb-5">
-        <div className="flex sm:flex-row flex-col sm:gap-0 gap-16 justify-center items-center">
+      <div className="my_container mx-auto relative pb-5">
+        <div className="flex sm:flex-row flex-col sm:gap-0 gap-16 justify-center items-center pt-8 sm:pt-0">
           <div className="flex flex-col">
             <h1 className="max-w-[520px] sm:text-start text-center leading-[100%] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
               Locate any phone,{" "}
@@ -36,7 +39,7 @@ const Hero = () => {
               nunc cursus. Lacus ornare aliquet condimentum elementum elementum
               nisl nibh sed. Egestas aliquam id quam nunc.
             </p>
-            <div className="bg-white sm:mx-0 mx-auto rounded ps-2.5 max-w-[448px] sm:mt-4 mt-8">
+            <div className="bg-white sm:mx-0 mx-auto rounded ps-2.5 max-w-[448px] sm:h-[55px] h-[51px] sm:mt-4 mt-8">
               <div className="flex justify-start items-center gap-2">
                 <Flag />
                 <div className="flex justify-start items-center gap-1">
@@ -51,8 +54,8 @@ const Hero = () => {
                     className="w-full sm:my-3.5 my-[11px] h-7 outline-none leading-[166%] text-black text-base font-normal"
                     type="number"
                   />
-                  <div className="sm:py-3.5 py-3 px-6 w-full rounded bg-dark-blue text-white sm:block justify-center sm:max-w-[112px] max-w- mx-auto hover:scale-[1.0] hover:duration-300 border-2 border-solid border-dark-blue hover:text-dark-blue after:-z-20 after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
-                    <div className="flex items-center gap-1">
+                  <div className="sm:py-3.5 py-3 px-6 w-full cursor-pointer rounded bg-dark-blue text-white sm:block justify-center sm:max-w-[112px] max-w-[107px] mx-auto hover:scale-[1.0] hover:duration-300 border-2 border-solid border-dark-blue hover:text-dark-blue after:-z-20 after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+                    <div className="flex group items-center gap-1">
                       <TopRightArrow />
                       <p className="font-semibold sm:text-base text-sm leading-[166%]">
                         Locate
@@ -63,8 +66,8 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="relative">
-            <div className="absolute -bottom-3 xl:bottom-8 right-0 xl:-right-4 md:w-[247px] w-[205px] md:p-[16px] sm:p-3 p-2 rounded-xl bg-[#F2F6FB] shadow-darkShadow overflow-hidden max-h-[189px]">
+          <div className="relative sm:pt-[10%] pt-0">
+            <div className="absolute -bottom-3 xl:bottom-8 right-0 xl:-right-4 md:w-[247px] shadow-header w-[205px] md:p-[16px] sm:p-3 p-2 rounded-xl bg-[#F2F6FB] shadow-darkShadow overflow-hidden max-h-[189px]">
               <div className="flex gap-1.5 md:gap-3 items-center xl:h-[33px] pb-1.5">
                 <Found />
                 <p className="font-normal text-lg md:text-xl text-primary">

@@ -35,6 +35,7 @@ module.exports = {
         accountCard: "0px 0px 9.5px 0px #00000014",
         accountForm:
           "0px 0px 11.3px 0px #00B5D81A, 0px 16px 25.3px 0px #00000014",
+        header: "0px 9px 13.9px 0px #0000001C",
       },
     },
   },
