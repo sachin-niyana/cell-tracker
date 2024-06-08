@@ -28,8 +28,8 @@ const Footer = () => {
         />
       </span>
       <div className="my_container mx-auto overflow-x">
-        <div className="flex flex-wrap flex-row items-center pb-14 md:pb-12">
-          <div className="w-full md:w-1/3 flex justify-center md:justify-start">
+        <div className="flex flex-wrap flex-row items-center pb-14 lg:pb-12">
+          <div className="w-full lg:w-1/3 flex justify-center lg:justify-start">
             <span>
               <img
                 className=" sm:w-[259px] w-[211px] sm:h-[36px] h-[29px] cursor-pointer"
@@ -38,22 +38,14 @@ const Footer = () => {
               />
             </span>
           </div>
-          <div className="w-full md:w-1/3 flex justify-center md:mt-4 mt-9 lg:mt-0 ">
-            <ul className="flex sm:gap-6 gap-[10px] items-center">
+          <div className="w-full lg:w-1/3 flex justify-center lg:mt-0 mt-9 ">
+            <ul className="flex sm:gap-6 gap-2.5 items-center justify-center">
               <li>
                 <Link
                   href="#home"
                   className="font-normal hidden sm:block sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#home"
-                  className="font-normal block sm:hidden sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
-                >
-                  Help
                 </Link>
               </li>
               <li>
@@ -66,31 +58,15 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#how-it-works"
-                  className="font-normal sm:text-base block sm:hidden text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
-                >
-                  Contact us
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="#features"
                   className="font-normal sm:text-base text-sm hidden sm:block text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
                   Features
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="#features"
-                  className="font-normal sm:text-base block sm:hidden text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
-                >
-                  Found Phone
-                </Link>
-              </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/3 flex justify-center md:mt-4 mt-8 lg:mt-0 ">
+          <div className="w-full lg:w-1/3 flex justify-center md:mt-4 mt-8 lg:mt-0 ">
             <div className="flex gap-4">
               <Link
                 to="https://in.linkedin.com/"
