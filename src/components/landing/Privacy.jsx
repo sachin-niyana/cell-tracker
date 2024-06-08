@@ -4,7 +4,7 @@ import vector from "../../assets/images/landing/png/vector1.png";
 
 const Privacy = () => {
   return (
-    <div className=" relative sm:pt-[76px] pt-8">
+    <div className=" relative sm:pt-[76px] pt-4">
       <span className=" absolute right-0 lg:top-[27%] md:top-[13%] top-[-4%] ">
         <img
           className=" md:w-[106px] w-[41px] md:h-[113px] h-[44px]"

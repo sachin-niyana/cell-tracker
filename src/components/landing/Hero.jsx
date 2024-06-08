@@ -25,7 +25,7 @@ const Hero = () => {
         alt="mobilelips"
       />
       <div className="my_container mx-auto relative pb-5">
-        <div className="flex sm:flex-row flex-col sm:gap-0 gap-16 justify-center items-center">
+        <div className="flex sm:flex-row flex-col sm:gap-0 gap-16 justify-center items-center pt-8 sm:pt-0">
           <div className="flex flex-col">
             <h1 className="max-w-[520px] sm:text-start text-center leading-[100%] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
               Locate any phone,{" "}
@@ -36,7 +36,7 @@ const Hero = () => {
               nunc cursus. Lacus ornare aliquet condimentum elementum elementum
               nisl nibh sed. Egestas aliquam id quam nunc.
             </p>
-            <div className="bg-white sm:mx-0 mx-auto rounded ps-2.5 max-w-[448px] sm:mt-4 mt-8">
+            <div className="bg-white sm:mx-0 mx-auto rounded ps-2.5 max-w-[448px] sm:h-[55px] h-[51px] sm:mt-4 mt-8">
               <div className="flex justify-start items-center gap-2">
                 <Flag />
                 <div className="flex justify-start items-center gap-1">
@@ -51,7 +51,7 @@ const Hero = () => {
                     className="w-full my-3.5 h-7 outline-none leading-[166%] text-black text-base font-normal"
                     type="number"
                   />
-                  <button className="bg-dark-blue h-full py-4 px-6 rounded text-base hover:scale-[1.1] hover:duration-300 duration-300 font-semibold text-white flex items-center gap-1 ">
+                  <button className="bg-dark-blue  max-w-[107px] sm:h-[55px] h-[51px] py-4 px-6 rounded sm:text-base text-sm hover:scale-[1.1] hover:duration-300 duration-300 font-semibold text-white flex items-center gap-1 ">
                     <span>
                       <TopRightArrow />
                     </span>
@@ -61,8 +61,8 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="relative pt-[10%]">
-            <div className="absolute -bottom-3 xl:bottom-8 right-0 xl:-right-4 md:w-[247px] w-[205px] md:p-[16px] sm:p-3 p-2 rounded-xl bg-[#F2F6FB] shadow-darkShadow overflow-hidden max-h-[189px]">
+          <div className="relative sm:pt-[10%] pt-0">
+            <div className="absolute -bottom-3 xl:bottom-8 right-0 xl:-right-4 md:w-[247px] shadow-[0px_9px_13.9px_0px_#E7E7E7] w-[205px] md:p-[16px] sm:p-3 p-2 rounded-xl bg-[#F2F6FB] shadow-darkShadow overflow-hidden max-h-[189px]">
               <div className="flex gap-1.5 md:gap-3 items-center xl:h-[33px] pb-1.5">
                 <Found />
                 <p className="font-normal text-lg md:text-xl text-primary">
