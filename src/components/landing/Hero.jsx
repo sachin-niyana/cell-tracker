@@ -10,6 +10,7 @@ import {
   TopRightArrow,
 } from "../common/Icons";
 import MyNavbar from "./MyNavbar";
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div
@@ -91,12 +92,12 @@ const Hero = () => {
                   Geolocation found!
                 </p>
               </div>
-              <a
-                href="tel:+44 633 427 390"
+              <Link
+                path="tel:+44 633 427 390"
                 className="font-semibold text-xl md:text-2xl !leading-[160%] text-primary  "
               >
                 +44 633 427 390
-              </a>
+              </Link>
               <p className="font-normal md:text-base text-sm text-black !leading-[150%] sm:pb-3.5 pb-3 pt-1.5">
                 3 Succession Walk, Fish Island, London E3 2RX, United Kingdom
               </p>
