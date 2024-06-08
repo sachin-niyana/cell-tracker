@@ -28,9 +28,9 @@ const Hero = () => {
         alt="mobilelips"
       />
       <div className="my_container mx-auto relative pb-5">
-        <div className="flex sm:flex-row flex-col sm:gap-0 gap-16 justify-center items-center pt-8 sm:pt-0">
+        <div className="flex sm:flex-row flex-col sm:gap-0 gap-16 justify-center items-center pt-14 sm:pt-0">
           <div className="flex flex-col">
-            <h1 className="max-w-[520px] sm:text-start text-center leading-[100%] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
+            <h1 className="max-w-[520px] sm:text-start text-center sm:leading-[64px] leading-[37px] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
               Locate any phone,{" "}
               <span className="font-light">anywhere, anytime</span>
             </h1>
@@ -44,23 +44,23 @@ const Hero = () => {
                 <Flag />
                 <div className="flex justify-start items-center gap-1">
                   <select
-                    class="outline-none text-sm leading-[23px] md:leading-[26px] md:text-base text-black font-normal cursor-pointer"
+                    className="outline-none text-sm leading-[23px] md:leading-[26px] md:text-base text-black font-normal cursor-pointer"
                     name="number"
                     id="number"
                   >
-                    <option value="91" class="flex items-center gap-2">
+                    <option value="91" className="flex items-center gap-2">
                       +91
                     </option>
-                    <option value="01" class="flex items-center gap-2">
+                    <option value="01" className="flex items-center gap-2">
                       +82
                     </option>
-                    <option value="61" class="flex items-center gap-2">
+                    <option value="61" className="flex items-center gap-2">
                       +92
                     </option>
-                    <option value="02" class="flex items-center gap-2">
+                    <option value="02" className="flex items-center gap-2">
                       +71
                     </option>
-                    <option value="21" class="flex items-center gap-2">
+                    <option value="21" className="flex items-center gap-2">
                       +10
                     </option>
                   </select>
