@@ -3,7 +3,7 @@ import { Facebook, Insta, Linkedin, Twiter } from "../common/Icons";
 import vector from "../../assets/images/landing/png/vector-left.png";
 import vectorright from "../../assets/images/landing/png/vector-right.png";
 import footerlogo from "../../assets/images/landing/png/footer-logo.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Footer = () => {
   function getCurrentYear() {
@@ -11,6 +11,9 @@ const Footer = () => {
     return currentDate.getFullYear();
   }
   const currentYear = getCurrentYear();
+  const location = useLocation();
+  const isLandingPath = location.pathname === "/landing";
+
   return (
     <div className=" relative">
       <span className=" absolute left-0 top-[-120%] hidden md:block">
@@ -45,7 +48,7 @@ const Footer = () => {
                   href="#home"
                   className="font-normal hidden sm:block sm:text-base text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
-                  Home
+                  {isLandingPath ? "Home" : "Help"}
                 </Link>
               </li>
               <li>
@@ -53,7 +56,7 @@ const Footer = () => {
                   href="#how-it-works"
                   className="font-normal sm:text-base hidden sm:block text-sm text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
-                  How It Works
+                  {isLandingPath ? "How It Works" : "Contact us"}
                 </Link>
               </li>
               <li>
@@ -61,12 +64,12 @@ const Footer = () => {
                   href="#features"
                   className="font-normal sm:text-base text-sm hidden sm:block text-black opacity-[70%] relative z-[1] after:w-0 after:bg-black after:opacity-[70%] after:h-[2px] after:bottom-1 after:left-[50%] after:duration-300 after:rounded-md after:absolute hover:after:left-0 hover:after:w-full"
                 >
-                  Features
+                  {isLandingPath ? "Features" : "Found Phone"}
                 </Link>
               </li>
             </ul>
           </div>
-          <div className="w-full lg:w-1/3 flex justify-center md:mt-4 mt-8 lg:mt-0 ">
+          <div className="w-full lg:w-1/3 flex lg:justify-end justify-center mt-8 lg:mt-0 ">
             <div className="flex gap-4">
               <Link
                 to="https://in.linkedin.com/"
