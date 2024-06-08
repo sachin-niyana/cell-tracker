@@ -43,10 +43,27 @@ const Hero = () => {
               <div className="flex justify-start items-center gap-2">
                 <Flag />
                 <div className="flex justify-start items-center gap-1">
-                  <p className="text-black text-base font-normal" value="in">
-                    +91
-                  </p>
-                  <BottomArrow />
+                  <select
+                    class="outline-none text-sm leading-[23px] md:leading-[26px] md:text-base text-black font-normal cursor-pointer"
+                    name="number"
+                    id="number"
+                  >
+                    <option value="91" class="flex items-center gap-2">
+                      +91
+                    </option>
+                    <option value="01" class="flex items-center gap-2">
+                      +82
+                    </option>
+                    <option value="61" class="flex items-center gap-2">
+                      +92
+                    </option>
+                    <option value="02" class="flex items-center gap-2">
+                      +71
+                    </option>
+                    <option value="21" class="flex items-center gap-2">
+                      +10
+                    </option>
+                  </select>
                 </div>
                 <div className="w-full flex gap-2">
                   <input

@@ -1,6 +1,5 @@
 import mobileimg from "../../assets/images/home/png/locate-people.png";
 import { locatedata } from "../common/Helper";
-import { RightVector, Vector } from "../common/Icons";
 
 const HowWorks = () => {
   return (
