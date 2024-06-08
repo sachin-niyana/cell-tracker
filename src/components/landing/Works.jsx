@@ -7,7 +7,7 @@ const Works = () => {
     <>
       <div
         id="how-it-works"
-        className=" my_container mx-auto sm:pt-[131px] pt-24 pb-[152px]"
+        className="my_container mx-auto sm:pt-[131px] pt-24 pb-[152px]"
       >
         <h2 className="text-2xxl md:text-4xl lg:text-5xl font-light text-dark-blue leading-[32.8px] sm:leading-10 lg:leading-[48px] text-center">
           How it <span className="font-extrabold">works</span>
@@ -16,11 +16,11 @@ const Works = () => {
           Fames tincidunt pellentesque nisl blandit at sit. Ullamcorper nisi sit
           elit rhoncus vestibulum fames libero id.{" "}
         </p>
-        <div className=" flex flex-wrap flex-row justify-center relative pt-[40px]">
-          <span className=" absolute lg:-translate-x-[229px] translate-x-[1px] sm:translate-y-[55px] translate-y-[259px]  max-sm:rotate-90">
+        <div className="flex flex-wrap flex-row justify-center relative pt-[40px]">
+          <span className="absolute lg:-translate-x-[229px] translate-x-[1px] sm:translate-y-[55px] translate-y-[259px]  max-sm:rotate-90">
             <Dotedline />
           </span>
-          <span className=" absolute lg:translate-x-[229px] translate-x-[0px] lg:translate-y-[55px] sm:translate-y-[343px] translate-y-[617px] max-lg:rotate-90">
+          <span className="absolute lg:translate-x-[229px] translate-x-[0px] lg:translate-y-[55px] sm:translate-y-[309px] translate-y-[617px] max-lg:rotate-90">
             <Dotedline />
           </span>
           {worksData.map((item, index) => (

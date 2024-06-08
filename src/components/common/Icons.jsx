@@ -1031,7 +1031,7 @@ export const Dotedline = () => {
         stroke="#03045E"
         strokeWidth="3"
         strokeLinecap="round"
-        stroke-dasharray="8 8"
+        strokeDasharray="8 8"
       />
       <rect x="0.5" y="0.5" width="18" height="18" rx="9" fill="white" />
       <rect x="0.5" y="0.5" width="18" height="18" rx="9" stroke="#03045E" />

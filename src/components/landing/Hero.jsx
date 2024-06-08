@@ -2,15 +2,10 @@ import React from "react";
 import headerelips from "../../assets/images/background/png/bottom-elips.png";
 import mobilelips from "../../assets/images/background/png/mobile-bottom-elips.png";
 import iphone from "../../assets/images/landing/webp/header-iphone.webp";
-import {
-  BottomArrow,
-  Flag,
-  Found,
-  LeftVector,
-  TopRightArrow,
-} from "../common/Icons";
+import { Flag, Found, LeftVector, TopRightArrow } from "../common/Icons";
 import MyNavbar from "./MyNavbar";
 import { Link } from "react-router-dom";
+import { countryCodes } from "../common/Helper";
 const Hero = () => {
   return (
     <div
@@ -29,9 +24,9 @@ const Hero = () => {
         alt="mobilelips"
       />
       <div className="my_container mx-auto relative pb-5">
-        <div className="flex sm:flex-row flex-col sm:gap-0 gap-16 justify-center items-center pt-8 sm:pt-0">
+        <div className="flex md:flex-row flex-col sm:gap-0 gap-16 justify-center items-center pt-14 sm:pt-0">
           <div className="flex flex-col">
-            <h1 className="max-w-[520px] sm:text-start text-center leading-[100%] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
+            <h1 className="max-w-[520px] sm:text-start text-center lg:leading-[64px] md:leading-[41px] leading-[37px] text-white xl:text-6xxl lg:text-5xl sm:text-4xl text-3xxl font-extrabold">
               Locate any phone,{" "}
               <span className="font-light">anywhere, anytime</span>
             </h1>
@@ -45,25 +40,19 @@ const Hero = () => {
                 <Flag />
                 <div className="flex justify-start items-center gap-1">
                   <select
-                    class="outline-none text-sm leading-[23px] md:leading-[26px] md:text-base text-black font-normal cursor-pointer"
+                    className="outline-none text-sm leading-[23px] md:leading-[26px] md:text-base text-black font-normal cursor-pointer"
                     name="number"
                     id="number"
                   >
-                    <option value="91" class="flex items-center gap-2">
-                      +91
-                    </option>
-                    <option value="01" class="flex items-center gap-2">
-                      +82
-                    </option>
-                    <option value="61" class="flex items-center gap-2">
-                      +92
-                    </option>
-                    <option value="02" class="flex items-center gap-2">
-                      +71
-                    </option>
-                    <option value="21" class="flex items-center gap-2">
-                      +10
-                    </option>
+                    {countryCodes.map((code) => (
+                      <option
+                        key={code.value}
+                        value={code.value}
+                        className="flex items-center gap-2"
+                      >
+                        {code.label}
+                      </option>
+                    ))}
                   </select>
                 </div>
                 <div className="w-full flex gap-2">
@@ -87,7 +76,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative sm:pt-[10%] pt-0">
-            <div className="absolute -bottom-3 xl:bottom-8 right-0 xl:-right-4 md:w-[247px] shadow-header w-[205px] md:p-[16px] sm:p-3 p-2 rounded-xl bg-[#F2F6FB] shadow-darkShadow overflow-hidden max-h-[189px]">
+            <div className="absolute -bottom-3 xl:bottom-8 right-0 xl:-right-4 sm:w-[247px] shadow-header w-[205px] sm:p-[16px] p-2 rounded-xl bg-[#F2F6FB] shadow-darkShadow overflow-hidden max-h-[189px]">
               <div className="flex gap-1.5 md:gap-3 items-center xl:h-[33px] pb-1.5">
                 <Found />
                 <p className="font-normal text-lg md:text-xl text-primary">
@@ -103,7 +92,7 @@ const Hero = () => {
               <p className="font-normal md:text-base text-sm text-black !leading-[150%] sm:pb-3.5 pb-3 pt-1.5">
                 3 Succession Walk, Fish Island, London E3 2RX, United Kingdom
               </p>
-              <div className="absolute sm:bottom-[2%] bottom-[6%] left-0">
+              <div className="absolute sm:bottom-[2%] bottom-[6%] left-0 pointer-events-none">
                 <LeftVector className="w-[23px] h-[21px] " />
               </div>
               <p className="font-normal text-xs md:text-sm text-black !leading-normal text-end">
