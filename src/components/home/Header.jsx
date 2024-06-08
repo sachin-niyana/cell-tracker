@@ -28,7 +28,7 @@ const Header = () => {
                 <Flag />
                 <div className="flex justify-start items-center gap-1">
                   <select
-                    class="outline-none text-sm leading-[23px] md:leading-[26px] md:text-base text-black font-normal"
+                    class="outline-none text-sm leading-[23px] md:leading-[26px] md:text-base text-black font-normal cursor-pointer"
                     name="number"
                     id="number"
                   >
@@ -36,16 +36,16 @@ const Header = () => {
                       +91
                     </option>
                     <option value="01" class="flex items-center gap-2">
-                      +01
+                      +82
                     </option>
                     <option value="61" class="flex items-center gap-2">
-                      +61
+                      +92
                     </option>
                     <option value="02" class="flex items-center gap-2">
-                      +02
+                      +71
                     </option>
                     <option value="21" class="flex items-center gap-2">
-                      +04
+                      +10
                     </option>
                   </select>
                 </div>
@@ -55,8 +55,8 @@ const Header = () => {
                     className="w-full sm:my-3.5 my-[11px] h-7 outline-none leading-[166%] text-black text-base font-normal"
                     type="number"
                   />
-                  <div className="sm:py-4 py-3 px-6 w-full rounded bg-dark-blue text-white sm:block justify-center sm:max-w-[112px] max-w- mx-auto hover:scale-[1.0] hover:duration-300 hover:text-dark-blue after:-z-20 after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
-                    <div className="flex items-center gap-1">
+                  <div className="sm:py-3.5 py-3 px-6 w-full cursor-pointer rounded bg-dark-blue text-white sm:block justify-center sm:max-w-[112px] max-w- mx-auto hover:scale-[1.0] hover:duration-300 border-2 border-solid border-dark-blue hover:text-dark-blue after:-z-20 after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+                    <div className="flex group items-center gap-1">
                       <TopRightArrow />
                       <p className="font-semibold sm:text-base text-sm leading-[166%]">
                         Locate

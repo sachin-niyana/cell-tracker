@@ -4,7 +4,10 @@ import { RightVector, Vector } from "../common/Icons";
 
 const HowWorks = () => {
   return (
-    <div className="xl:mt-[104px] lg:mt-[90px] md:mt-20 mt-[74px] mb-[72px] px-6">
+    <div
+      className="xl:mt-[104px] lg:mt-[90px] md:mt-20 mt-[74px] mb-[72px] px-6"
+      id="how-it-works"
+    >
       <div className=" mx-auto max-w-[1240px] lg:px-3">
         <h2 className="font-light text-[28px] sm:text-[32px] md:text-[40px] lg:text-[48px] leading-[32.48px] sm:leading-[38px] md:leading-[42px] lg:leading-[48px] text-dark-blue text-center">
           How it <span className="font-extrabold">works</span>

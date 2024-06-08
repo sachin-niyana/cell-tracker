@@ -48,15 +48,17 @@ const Hero = () => {
                 <div className="w-full flex gap-2">
                   <input
                     required
-                    className="w-full my-3.5 h-7 outline-none leading-[166%] text-black text-base font-normal"
+                    className="w-full sm:my-3.5 my-[11px] h-7 outline-none leading-[166%] text-black text-base font-normal"
                     type="number"
                   />
-                  <button className="bg-dark-blue h-full py-4 px-6 rounded text-base hover:scale-[1.1] hover:duration-300 duration-300 font-semibold text-white flex items-center gap-1 ">
-                    <span>
+                  <div className="sm:py-3.5 py-3 px-6 w-full rounded bg-dark-blue text-white sm:block justify-center sm:max-w-[112px] max-w- mx-auto hover:scale-[1.0] hover:duration-300 border-2 border-solid border-dark-blue hover:text-dark-blue after:-z-20 after:absolute after:h-1 after:w-1 hover:bg-white after:bg-white after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[320] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700">
+                    <div className="flex items-center gap-1">
                       <TopRightArrow />
-                    </span>
-                    Locate
-                  </button>
+                      <p className="font-semibold sm:text-base text-sm leading-[166%]">
+                        Locate
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
